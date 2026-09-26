@@ -173,6 +173,7 @@ Item {
     var key = String(app.key || "")
     if (app.kind === "web") return "Web app · " + key.replace(/^web:/, "")
     if (app.kind === "tui") return "Terminal program · " + key.replace(/^tui:/, "")
+    if (app.kind === "shell") return "Omarchy plugin · " + key.replace(/^shell:/, "")
     return "App"
   }
 

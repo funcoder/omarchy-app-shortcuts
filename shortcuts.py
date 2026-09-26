@@ -77,6 +77,14 @@ LAUNCH_WRAPPERS = {"uwsm", "uwsm-app", "setsid", "env", "app", "--", "nohup"}
 # omarchy-launch-webapp opens Chromium-family browsers with --app=URL, whose
 # windows get classes like chrome-x.com__-Default or
 # chrome-teams.microsoft.com__v2_-Default.
+# Every Omarchy shell plugin window (Spotify Vinyl, DevOps Board, ...) shares
+# this class, so it can't tell them apart; the window title and the plugin that
+# sets it do.
+SHELL_CLASS = "org.quickshell"
+SHELL_PLUGIN_DIRS = [
+    Path(os.environ.get("XDG_CONFIG_HOME") or HOME / ".config") / "omarchy/plugins",
+    Path(os.environ.get("OMARCHY_PATH") or HOME / ".local/share/omarchy") / "shell/plugins",
+]
 WEB_CLASS = re.compile(r"^(?:chrome|chromium|brave|msedge|vivaldi|helium|opera)-([^_]+)__.*-[^-]+$")
 URL_RE = re.compile(r"https?://[^\s\"'<>]+")
 
@@ -395,8 +403,50 @@ def foreground_program(terminal_pid):
     return ""
 
 
+def shell_plugin_for(title):
+    """Omarchy shell plugin whose window has this title: by manifest name, or a
+    QML file that sets the title as a literal (title: "X" / windowTitle: "X")."""
+    if not title:
+        return None
+    literal = re.compile(r'\b(?:title|windowTitle)\s*:\s*"' + re.escape(title) + '"')
+    plugins = []
+    for base in SHELL_PLUGIN_DIRS:
+        for manifest in sorted(base.glob("*/manifest.json")):
+            data = read_json(manifest) or {}
+            if isinstance(data, dict) and data.get("id"):
+                plugins.append((manifest.parent, data))
+    for folder, data in plugins:
+        if str(data.get("name", "")).strip().lower() == title.lower():
+            return folder, data
+    for folder, data in plugins:
+        for qml in folder.glob("*.qml"):
+            try:
+                if literal.search(qml.read_text(errors="replace")):
+                    return folder, data
+            except OSError:
+                continue
+    return None
+
+
+def identify_shell_window(window, apps):
+    title = window.get("title", "").strip()
+    found = shell_plugin_for(title)
+    if found:
+        folder, manifest = found
+        key = f"shell:{manifest['id']}"
+        app = {"key": key, "kind": "shell", "name": str(manifest.get("name") or title), "plugin": manifest["id"],
+               "pluginDir": str(folder)}
+    else:
+        slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-") or "window"
+        key = f"shell:{slug}"
+        app = {"key": key, "kind": "shell", "name": title or "Omarchy shell window"}
+    return {**apps[key], **app} if key in apps else app
+
+
 def identify(window, apps):
     cls = window.get("class", "")
+    if SHELL_CLASS in (cls.lower(), window.get("initialClass", "").lower()):
+        return identify_shell_window(window, apps)
     match = WEB_CLASS.match(cls)
     if match:
         host = match.group(1).lower()
@@ -871,8 +921,32 @@ def package_info(path):
     return package, match.group(1) if match else ""
 
 
+def plugin_readme(app):
+    folder = app.get("pluginDir")
+    if not folder:
+        return None
+    for name in ("README.md", "readme.md", "README"):
+        path = Path(folder) / name
+        if path.is_file():
+            return path
+    return None
+
+
+def shell_evidence(app):
+    """The plugin's README, which is where Omarchy plugins document their keys."""
+    path = plugin_readme(app)
+    if not path:
+        return {}
+    try:
+        return {"readme": path.read_text(errors="replace")[:15000], "readmePath": str(path)}
+    except OSError:
+        return {}
+
+
 def local_evidence(app):
     """Help text, man page, homepage and config files for a terminal program."""
+    if app.get("kind") == "shell":
+        return shell_evidence(app)
     command = app.get("command") or app["key"].split(":", 1)[-1]
     binary = shutil.which(command)
     if not binary:
@@ -910,6 +984,7 @@ def prompt_for(app, evidence=None, web=False):
     kinds = {
         "web": "a website opened as a standalone web app (give the site's own keyboard shortcuts, not the browser's)",
         "tui": "a program that runs inside a terminal (give its default keybindings)",
+        "shell": "a window from an Omarchy shell plugin (a Quickshell QML app, not a standalone program)",
         "gui": "a graphical desktop application",
     }
     details = [f"App: {app.get('name') or app['key']}", f"Kind: {kinds.get(app.get('kind'), 'desktop application')}"]
@@ -925,6 +1000,8 @@ def prompt_for(app, evidence=None, web=False):
         if evidence.get("homepage"):
             details.append(f"Project homepage: {evidence['homepage']}")
         blocks = []
+        if evidence.get("readme"):
+            blocks.append(f"<plugin-readme path=\"{evidence['readmePath']}\">\n{evidence['readme']}\n</plugin-readme>")
         if evidence.get("help"):
             blocks.append(f"<help-output command=\"{evidence['command']} --help\">\n{evidence['help']}\n</help-output>")
         if evidence.get("manual"):
@@ -998,7 +1075,19 @@ def run_claude(app, config, evidence=None, web=False):
 
 
 def is_researched(app):
+    if app.get("kind") == "shell":
+        return True
     return app.get("kind") == "tui" and app["key"] not in NATIVE
+
+
+def app_fingerprint(app):
+    if app.get("kind") == "shell":
+        path = plugin_readme(app)
+        try:
+            return f"{path}:{path.stat().st_mtime:.0f}" if path else ""
+        except OSError:
+            return ""
+    return config_fingerprint(app.get("command") or app["key"].split(":", 1)[-1])
 
 
 def needs_lookup(key, config, app=None):
@@ -1016,7 +1105,7 @@ def needs_lookup(key, config, app=None):
         # again whenever the program's keybinding config changes.
         if not entry.get("researched"):
             return True
-        return entry.get("configFingerprint", "") != config_fingerprint(app.get("command") or key.split(":", 1)[-1])
+        return entry.get("configFingerprint", "") != app_fingerprint(app)
     return False
 
 
@@ -1041,7 +1130,8 @@ def lookup(app, config, force=False):
             result = run_claude(app, config, evidence)
             # Nothing in the local material: ask again from the web, sending only
             # the app's identity so no local text reaches a tool-enabled request.
-            if researched and not result.get("sections"):
+            # A plugin's README is its only documentation; the web won't know more.
+            if researched and not result.get("sections") and app.get("kind") != "shell":
                 result = run_claude(app, config, None, web=True)
         except (RuntimeError, OSError, ValueError, subprocess.TimeoutExpired) as error:
             log(f"{key}: {error}")
@@ -1050,7 +1140,7 @@ def lookup(app, config, force=False):
         extra = {}
         if researched:
             extra = {"researched": True,
-                     "configFingerprint": config_fingerprint(app.get("command") or key.split(":", 1)[-1]),
+                     "configFingerprint": app_fingerprint(app),
                      "configFiles": [path for path, _ in (evidence or {}).get("bindings", [])]}
         write_json(shortcuts_path(key), {"key": key, **result, "source": "claude", "model": config["model"],
                                          **extra, "updatedAt": now_iso()})
