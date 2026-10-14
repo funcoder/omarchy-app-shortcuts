@@ -1,0 +1,45 @@
+{
+  "key": "app:hype",
+  "name": "Hype",
+  "sections": [
+    {
+      "title": "Slides",
+      "shortcuts": [
+        { "keys": "Ctrl + Enter", "action": "Add a slide after the selection" },
+        { "keys": "Shift + Click", "action": "Select several slides" },
+        { "keys": "Shift + ↑ / ↓", "action": "Extend the slide selection" },
+        { "keys": "Ctrl + V", "action": "Paste an image or video onto the slide" }
+      ]
+    },
+    {
+      "title": "Views",
+      "shortcuts": [
+        { "keys": "Ctrl + M", "action": "Toggle the slide overview" },
+        { "keys": "Ctrl + .", "action": "Switch between Visual and Markdown mode" },
+        { "keys": "Enter", "action": "Open the selected slide (overview)" },
+        { "keys": "↑ / ↓", "action": "Move by a row (overview)" }
+      ]
+    },
+    {
+      "title": "Present",
+      "shortcuts": [
+        { "keys": "Ctrl + Space", "action": "Present from the selected slide" },
+        { "keys": "F5", "action": "Present from the selected slide" },
+        { "keys": "Shift + F5", "action": "Present from the first slide" },
+        { "keys": "← / →", "action": "Previous / next slide" },
+        { "keys": "Space", "action": "Play or pause video" },
+        { "keys": "Esc", "action": "Return to editing" }
+      ]
+    },
+    {
+      "title": "File",
+      "shortcuts": [
+        { "keys": "Ctrl + N", "action": "New presentation" },
+        { "keys": "Ctrl + O", "action": "Open a Markdown file" },
+        { "keys": "Ctrl + S", "action": "Save now" },
+        { "keys": "Ctrl + E", "action": "Export as PDF" },
+        { "keys": "Ctrl + Shift + E", "action": "Export as PowerPoint" }
+      ]
+    }
+  ]
+}

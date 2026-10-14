@@ -191,8 +191,9 @@ Item {
 
   function footerText() {
     var parts = ["Tab switch", "Esc close"]
-    if (tab === 0 && app && status !== "pending") parts.unshift("Ctrl+R look up again")
+    if (tab === 0 && app && status !== "pending" && source !== "bundled") parts.unshift("Ctrl+R look up again")
     if (tab === 0 && source === "user") parts.unshift("Edited by you")
+    else if (tab === 0 && source === "bundled") parts.unshift("Included with the plugin")
     else if (tab === 0 && source === "claude") parts.unshift("Looked up by Claude")
     else if (tab === 0 && source === "nvim") parts.unshift("Read from your Neovim config")
     return parts.join("  ·  ")

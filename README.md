@@ -51,6 +51,15 @@ Files live in `~/.local/share/funcoder-app-shortcuts/`:
 
 App keys look like `web:x.com`, `tui:nvim` or `app:spotify`.
 
+### Shortcuts included with the plugin
+
+The plugin's `library/` folder holds shortcut files that ship with it, for
+apps the model doesn't know well. They use the same format as
+`shortcuts/<key>.json`, named after the app key with `:` replaced by `_`
+(`app:hype` → `library/app_hype.json`). A bundled file is shown instead of
+any looked-up shortcuts, and the app is never looked up. A local file marked
+`"source": "user"` still overrides it.
+
 ### Settings (`config.json`)
 
 | Key | Default | Meaning |

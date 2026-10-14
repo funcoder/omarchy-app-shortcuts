@@ -16,6 +16,10 @@ Commands (every command prints one line of JSON):
 Data lives in $XDG_DATA_HOME/funcoder-app-shortcuts/:
   apps.json            inventory
   shortcuts/<key>.json one file per app; set "source": "user" to stop it being replaced
+
+Shortcut files in the plugin's library/ folder ship with the plugin. They win
+over lookups, and are never looked up again; a local file marked "user" still
+wins over them.
   config.json          model, concurrency, ignore patterns
   lookup.log           lookup failures
 """
@@ -44,6 +48,7 @@ SHORTCUTS_DIR = DATA / "shortcuts"
 LOCKS_DIR = DATA / "locks"
 CONFIG_FILE = DATA / "config.json"
 LOG_FILE = DATA / "lookup.log"
+LIBRARY_DIR = Path(__file__).resolve().parent / "library"
 
 DEFAULT_CONFIG = {
     "model": "claude-sonnet-5",
@@ -184,6 +189,25 @@ def safe_name(key):
 
 def shortcuts_path(key):
     return SHORTCUTS_DIR / f"{safe_name(key)}.json"
+
+
+def bundled_path(key):
+    return LIBRARY_DIR / f"{safe_name(key)}.json"
+
+
+def read_entry(key):
+    """The shortcut entry to show for key: the user's own, else the plugin's bundled one, else a lookup's."""
+    entry = read_json(shortcuts_path(key))
+    if entry and entry.get("source") == "user":
+        return entry
+    bundled = read_json(bundled_path(key))
+    if bundled and bundled.get("sections"):
+        return {**bundled, "key": key, "source": "bundled"}
+    return entry
+
+
+def is_bundled(key):
+    return (read_entry(key) or {}).get("source") == "bundled"
 
 
 def is_pending(key):
@@ -1091,12 +1115,12 @@ def app_fingerprint(app):
 
 
 def needs_lookup(key, config, app=None):
-    entry = read_json(shortcuts_path(key))
+    entry = read_entry(key)
     if key in NATIVE:
         return native_stale(key)
     if not entry:
         return True
-    if entry.get("source") == "user":
+    if entry.get("source") in ("user", "bundled"):
         return False
     if entry.get("status") == "failed":
         return age_hours(entry.get("updatedAt")) >= float(config["retryFailedHours"])
@@ -1123,6 +1147,9 @@ def lookup(app, config, force=False):
         if entry and not force and not needs_lookup(key, config, app):
             return "exists"
         if entry and entry.get("source") == "user" and not force:
+            return "exists"
+        # A lookup can't replace the plugin's own shortcuts, so don't run one.
+        if is_bundled(key):
             return "exists"
         researched = is_researched(app)
         evidence = local_evidence(app) if researched else None
@@ -1174,7 +1201,7 @@ def hyprland_bindings():
 
 def payload_for(app):
     key = app["key"]
-    entry = read_json(shortcuts_path(key)) or {}
+    entry = read_entry(key) or {}
     pending = is_pending(key)
     if pending:
         status = "pending"
