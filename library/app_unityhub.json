@@ -1,0 +1,69 @@
+{
+  "key": "app:unityhub",
+  "name": "Unity Hub",
+  "sections": [
+    {
+      "title": "Window",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + R",
+          "action": "Reload the current view"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit Unity Hub"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Minimize window"
+        },
+        {
+          "keys": "Ctrl + +",
+          "action": "Zoom in interface"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out interface"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset interface zoom"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Find in page (where supported)"
+        },
+        {
+          "keys": "Alt + Left",
+          "action": "Go back"
+        },
+        {
+          "keys": "Alt + Right",
+          "action": "Go forward"
+        }
+      ]
+    },
+    {
+      "title": "Developer",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Open developer tools"
+        },
+        {
+          "keys": "F5",
+          "action": "Reload the current view"
+        }
+      ]
+    }
+  ]
+}

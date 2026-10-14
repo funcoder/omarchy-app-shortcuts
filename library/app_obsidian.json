@@ -1,0 +1,136 @@
+{
+  "key": "app:obsidian",
+  "name": "Obsidian",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + O",
+          "action": "Open quick switcher to jump to a note"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Open command palette"
+        },
+        {
+          "keys": "Alt + Left",
+          "action": "Navigate back"
+        },
+        {
+          "keys": "Alt + Right",
+          "action": "Navigate forward"
+        },
+        {
+          "keys": "Ctrl + G",
+          "action": "Open graph view"
+        },
+        {
+          "keys": "Ctrl + Click",
+          "action": "Open link in a new tab"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Open link under cursor"
+        }
+      ]
+    },
+    {
+      "title": "Tabs & Panes",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Create new note"
+        },
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Open new window"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close current tab"
+        },
+        {
+          "keys": "Ctrl + Shift + T",
+          "action": "Reopen last closed tab"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Go to next tab"
+        },
+        {
+          "keys": "Ctrl + Shift + Tab",
+          "action": "Go to previous tab"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Search within the current note"
+        },
+        {
+          "keys": "Ctrl + Shift + F",
+          "action": "Search across all notes"
+        }
+      ]
+    },
+    {
+      "title": "Formatting",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold selected text"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italicize selected text"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Insert a link"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste as plain text"
+        }
+      ]
+    },
+    {
+      "title": "Headings & Lists",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + 1",
+          "action": "Set line to heading level 1 (up to Ctrl+6)"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Set line to paragraph (remove heading)"
+        },
+        {
+          "keys": "Tab",
+          "action": "Indent list item"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Outdent list item"
+        }
+      ]
+    },
+    {
+      "title": "View & Settings",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + E",
+          "action": "Toggle edit / reading view"
+        },
+        {
+          "keys": "Ctrl + ,",
+          "action": "Open settings"
+        }
+      ]
+    }
+  ]
+}

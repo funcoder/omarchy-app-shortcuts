@@ -1,0 +1,158 @@
+{
+  "key": "web:x.com",
+  "name": "X",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "j",
+          "action": "Next post"
+        },
+        {
+          "keys": "k",
+          "action": "Previous post"
+        },
+        {
+          "keys": "Space",
+          "action": "Page down / load more"
+        },
+        {
+          "keys": "g h",
+          "action": "Go to Home"
+        },
+        {
+          "keys": "g e",
+          "action": "Go to Explore"
+        },
+        {
+          "keys": "g n",
+          "action": "Go to Notifications"
+        },
+        {
+          "keys": "g r",
+          "action": "Go to Mentions"
+        },
+        {
+          "keys": "g p",
+          "action": "Go to Profile"
+        },
+        {
+          "keys": "g f",
+          "action": "Go to Drafts"
+        },
+        {
+          "keys": "g s",
+          "action": "Go to Settings"
+        },
+        {
+          "keys": "g d",
+          "action": "Go to Direct Messages"
+        },
+        {
+          "keys": "g b",
+          "action": "Go to Bookmarks"
+        },
+        {
+          "keys": "g l",
+          "action": "Go to Likes"
+        },
+        {
+          "keys": "g i",
+          "action": "Go to Lists"
+        },
+        {
+          "keys": "g u",
+          "action": "Go to a user's profile"
+        },
+        {
+          "keys": "?",
+          "action": "Show keyboard shortcuts"
+        }
+      ]
+    },
+    {
+      "title": "Posting & Interaction",
+      "shortcuts": [
+        {
+          "keys": "n",
+          "action": "New post"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Send post"
+        },
+        {
+          "keys": "l",
+          "action": "Like post"
+        },
+        {
+          "keys": "r",
+          "action": "Reply"
+        },
+        {
+          "keys": "t",
+          "action": "Repost"
+        },
+        {
+          "keys": "s",
+          "action": "Share post"
+        },
+        {
+          "keys": "b",
+          "action": "Bookmark post"
+        },
+        {
+          "keys": "u",
+          "action": "Mute account"
+        },
+        {
+          "keys": "x",
+          "action": "Block account"
+        },
+        {
+          "keys": "Enter",
+          "action": "Open post details"
+        },
+        {
+          "keys": "o",
+          "action": "Expand photo"
+        },
+        {
+          "keys": "Esc",
+          "action": "Close current item"
+        }
+      ]
+    },
+    {
+      "title": "Timeline",
+      "shortcuts": [
+        {
+          "keys": ".",
+          "action": "Load new posts"
+        },
+        {
+          "keys": "/",
+          "action": "Search"
+        }
+      ]
+    },
+    {
+      "title": "Media",
+      "shortcuts": [
+        {
+          "keys": "k",
+          "action": "Pause/play selected video"
+        },
+        {
+          "keys": "Space",
+          "action": "Pause/play selected video"
+        },
+        {
+          "keys": "m",
+          "action": "Mute selected video"
+        }
+      ]
+    }
+  ]
+}

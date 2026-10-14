@@ -1,0 +1,164 @@
+{
+  "key": "app:org.gnome.papers",
+  "name": "Document Viewer",
+  "sections": [
+    {
+      "title": "File & Window",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + O",
+          "action": "Open a document"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "Open a new window"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save a copy"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print document"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "F9",
+          "action": "Toggle sidebar"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Page Down",
+          "action": "Next page"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Previous page"
+        },
+        {
+          "keys": "Space",
+          "action": "Next page"
+        },
+        {
+          "keys": "Shift + Space",
+          "action": "Previous page"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to first page"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to last page"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Go to specific page"
+        },
+        {
+          "keys": "Alt + Left",
+          "action": "Go back in history"
+        },
+        {
+          "keys": "Alt + Right",
+          "action": "Go forward in history"
+        },
+        {
+          "keys": "Ctrl + G",
+          "action": "Find next match"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Find previous match"
+        }
+      ]
+    },
+    {
+      "title": "Zoom & View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom to 100%"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Fit page to window"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Fit page width to window"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Rotate page"
+        },
+        {
+          "keys": "Tab",
+          "action": "Switch continuous/single page mode"
+        }
+      ]
+    },
+    {
+      "title": "Search & Selection",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Find text in document"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all text"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected text"
+        },
+        {
+          "keys": "Escape",
+          "action": "Close find bar / exit fullscreen"
+        }
+      ]
+    },
+    {
+      "title": "Bookmarks & Presentation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + D",
+          "action": "Add bookmark for current page"
+        },
+        {
+          "keys": "F5",
+          "action": "Start presentation mode"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + ?",
+          "action": "Show keyboard shortcuts"
+        }
+      ]
+    }
+  ]
+}

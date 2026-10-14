@@ -1,0 +1,107 @@
+{
+  "key": "web:photos.google.com",
+  "name": "Google Photos",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "j",
+          "action": "Go to next photo"
+        },
+        {
+          "keys": "k",
+          "action": "Go to previous photo"
+        },
+        {
+          "keys": "Right",
+          "action": "Go to next photo"
+        },
+        {
+          "keys": "Left",
+          "action": "Go to previous photo"
+        },
+        {
+          "keys": "Esc",
+          "action": "Go back / close current photo"
+        }
+      ]
+    },
+    {
+      "title": "Viewing & Playback",
+      "shortcuts": [
+        {
+          "keys": "Enter",
+          "action": "Open selected photo or video"
+        },
+        {
+          "keys": "Space",
+          "action": "Open photo, or play/pause video"
+        },
+        {
+          "keys": "i",
+          "action": "Show or hide photo info panel"
+        },
+        {
+          "keys": "z",
+          "action": "Zoom in or out on photo"
+        }
+      ]
+    },
+    {
+      "title": "Selecting",
+      "shortcuts": [
+        {
+          "keys": "x",
+          "action": "Select or deselect current photo"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all visible photos"
+        },
+        {
+          "keys": "Esc",
+          "action": "Deselect all selected photos"
+        }
+      ]
+    },
+    {
+      "title": "Organize & Edit",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Add or remove from favorites"
+        },
+        {
+          "keys": "a",
+          "action": "Add photo to an album"
+        },
+        {
+          "keys": "Shift + D",
+          "action": "Download selected photo"
+        },
+        {
+          "keys": "Delete",
+          "action": "Move photo to trash"
+        },
+        {
+          "keys": "s",
+          "action": "Share current photo"
+        }
+      ]
+    },
+    {
+      "title": "Search & Help",
+      "shortcuts": [
+        {
+          "keys": "/",
+          "action": "Search your photos"
+        },
+        {
+          "keys": "?",
+          "action": "Show keyboard shortcuts help"
+        }
+      ]
+    }
+  ]
+}

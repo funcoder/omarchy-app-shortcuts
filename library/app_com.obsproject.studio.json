@@ -1,0 +1,94 @@
+{
+  "key": "app:com.obsproject.studio",
+  "name": "OBS Studio",
+  "sections": [
+    {
+      "title": "Editing & Clipboard",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo last scene/source change"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo last undone change"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected source"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste source as reference"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste source as duplicate"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all sources in current scene"
+        },
+        {
+          "keys": "Delete",
+          "action": "Remove selected scene or source"
+        }
+      ]
+    },
+    {
+      "title": "Preview Window",
+      "shortcuts": [
+        {
+          "keys": "←",
+          "action": "Nudge selected source left by 1px"
+        },
+        {
+          "keys": "→",
+          "action": "Nudge selected source right by 1px"
+        },
+        {
+          "keys": "↑",
+          "action": "Nudge selected source up by 1px"
+        },
+        {
+          "keys": "↓",
+          "action": "Nudge selected source down by 1px"
+        },
+        {
+          "keys": "Shift + ←",
+          "action": "Nudge selected source left by larger step"
+        },
+        {
+          "keys": "Shift + →",
+          "action": "Nudge selected source right by larger step"
+        },
+        {
+          "keys": "Shift + ↑",
+          "action": "Nudge selected source up by larger step"
+        },
+        {
+          "keys": "Shift + ↓",
+          "action": "Nudge selected source down by larger step"
+        }
+      ]
+    },
+    {
+      "title": "Scene & Source List",
+      "shortcuts": [
+        {
+          "keys": "F2",
+          "action": "Rename selected scene or source"
+        }
+      ]
+    },
+    {
+      "title": "Fullscreen Projector",
+      "shortcuts": [
+        {
+          "keys": "Esc",
+          "action": "Close fullscreen projector window"
+        }
+      ]
+    }
+  ]
+}

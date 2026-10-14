@@ -1,0 +1,262 @@
+{
+  "key": "app:libreoffice-draw",
+  "name": "LibreOffice Draw",
+  "sections": [
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New document"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open document"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save document"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print document"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close document"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        }
+      ]
+    },
+    {
+      "title": "Edit & Selection",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all objects"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut selection"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selection"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste special"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selected object"
+        },
+        {
+          "keys": "Tab",
+          "action": "Select next object"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Select previous object"
+        },
+        {
+          "keys": "Escape",
+          "action": "Deselect / exit current tool"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Duplicate selected object"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find text"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Find and replace"
+        }
+      ]
+    },
+    {
+      "title": "Object Arrangement",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + Plus",
+          "action": "Bring to front"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Bring forward"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Send backward"
+        },
+        {
+          "keys": "Ctrl + Shift + Minus",
+          "action": "Send to back"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Group selected objects"
+        },
+        {
+          "keys": "Ctrl + Alt + Shift + G",
+          "action": "Ungroup selected objects"
+        },
+        {
+          "keys": "F4",
+          "action": "Open Position and Size dialog"
+        },
+        {
+          "keys": "F11",
+          "action": "Open Styles sidebar"
+        }
+      ]
+    },
+    {
+      "title": "Drawing Tools",
+      "shortcuts": [
+        {
+          "keys": "F2",
+          "action": "Enter edit mode for text/object"
+        },
+        {
+          "keys": "Insert",
+          "action": "Switch between insert and overwrite mode"
+        },
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Toggle Insert Point tool"
+        },
+        {
+          "keys": "Alt + click",
+          "action": "Select object behind another"
+        },
+        {
+          "keys": "Shift + click",
+          "action": "Add/remove object from selection"
+        },
+        {
+          "keys": "Shift + drag",
+          "action": "Constrain shape proportions while drawing"
+        }
+      ]
+    },
+    {
+      "title": "View & Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + 0",
+          "action": "Set zoom to 100%"
+        },
+        {
+          "keys": "Ctrl + Scroll",
+          "action": "Zoom in or out"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Go to previous page"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Go to next page"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to first page"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to last page"
+        },
+        {
+          "keys": "Tab",
+          "action": "Cycle through pages in Slide panel"
+        }
+      ]
+    },
+    {
+      "title": "Text Editing",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Toggle bold"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Toggle italic"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Toggle underline"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Center align text"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Justify text"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Left align text"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Right align text"
+        }
+      ]
+    },
+    {
+      "title": "Pages & Layers",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + M",
+          "action": "Insert new page"
+        },
+        {
+          "keys": "F5",
+          "action": "Toggle Navigator"
+        },
+        {
+          "keys": "Ctrl + Shift + F10",
+          "action": "Toggle snap to guides"
+        },
+        {
+          "keys": "Shift + Ctrl + R",
+          "action": "Reset view zoom"
+        }
+      ]
+    },
+    {
+      "title": "Presentation",
+      "shortcuts": [
+        {
+          "keys": "F5",
+          "action": "Start slide show from first page"
+        },
+        {
+          "keys": "Escape",
+          "action": "End slide show"
+        }
+      ]
+    }
+  ]
+}

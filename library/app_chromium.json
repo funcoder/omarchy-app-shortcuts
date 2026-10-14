@@ -1,0 +1,205 @@
+{
+  "key": "app:chromium",
+  "name": "Chromium",
+  "sections": [
+    {
+      "title": "Tabs & Windows",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + T",
+          "action": "Open new tab"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "Open new window"
+        },
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Open new incognito window"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close current tab"
+        },
+        {
+          "keys": "Ctrl + Shift + T",
+          "action": "Reopen last closed tab"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Switch to next tab"
+        },
+        {
+          "keys": "Ctrl + Shift + Tab",
+          "action": "Switch to previous tab"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Switch to first tab"
+        },
+        {
+          "keys": "Ctrl + 9",
+          "action": "Switch to last tab"
+        },
+        {
+          "keys": "Ctrl + Shift + W",
+          "action": "Close current window"
+        },
+        {
+          "keys": "Alt + F4",
+          "action": "Quit Chromium"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Alt + Left",
+          "action": "Go back one page"
+        },
+        {
+          "keys": "Alt + Right",
+          "action": "Go forward one page"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Reload current page"
+        },
+        {
+          "keys": "Ctrl + Shift + R",
+          "action": "Reload page ignoring cache"
+        },
+        {
+          "keys": "Esc",
+          "action": "Stop loading current page"
+        },
+        {
+          "keys": "Alt + Home",
+          "action": "Open home page"
+        }
+      ]
+    },
+    {
+      "title": "Search & Address Bar",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + L",
+          "action": "Select address bar text"
+        },
+        {
+          "keys": "Alt + D",
+          "action": "Select address bar text"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Search from address bar"
+        },
+        {
+          "keys": "Alt + Enter",
+          "action": "Open address bar entry in new tab"
+        }
+      ]
+    },
+    {
+      "title": "Page Actions",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Find in page"
+        },
+        {
+          "keys": "Ctrl + G",
+          "action": "Find next match"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Find previous match"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print current page"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save current page"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Bookmark current page"
+        },
+        {
+          "keys": "Ctrl + Shift + D",
+          "action": "Bookmark all open tabs"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "View page source"
+        }
+      ]
+    },
+    {
+      "title": "Bookmarks & History",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + O",
+          "action": "Open bookmarks manager"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Open browsing history"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Open downloads"
+        },
+        {
+          "keys": "Ctrl + Shift + B",
+          "action": "Toggle bookmarks bar"
+        },
+        {
+          "keys": "Ctrl + Shift + Delete",
+          "action": "Clear browsing data"
+        }
+      ]
+    },
+    {
+      "title": "Zoom & Display",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + +",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom to default"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen"
+        }
+      ]
+    },
+    {
+      "title": "Developer Tools",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Open developer tools"
+        },
+        {
+          "keys": "Ctrl + Shift + J",
+          "action": "Open DevTools console"
+        },
+        {
+          "keys": "Ctrl + Shift + C",
+          "action": "Inspect element"
+        }
+      ]
+    }
+  ]
+}

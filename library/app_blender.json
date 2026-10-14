@@ -1,0 +1,285 @@
+{
+  "key": "app:blender",
+  "name": "Blender",
+  "sections": [
+    {
+      "title": "Viewport Navigation",
+      "shortcuts": [
+        {
+          "keys": "Middle Mouse",
+          "action": "Orbit view"
+        },
+        {
+          "keys": "Shift + Middle Mouse",
+          "action": "Pan view"
+        },
+        {
+          "keys": "Ctrl + Middle Mouse",
+          "action": "Dolly zoom view"
+        },
+        {
+          "keys": "Numpad 0",
+          "action": "Toggle camera view"
+        },
+        {
+          "keys": "Numpad 1",
+          "action": "Front view"
+        },
+        {
+          "keys": "Numpad 3",
+          "action": "Right side view"
+        },
+        {
+          "keys": "Numpad 7",
+          "action": "Top view"
+        },
+        {
+          "keys": "Ctrl + Numpad 1",
+          "action": "Back view"
+        },
+        {
+          "keys": "Numpad 5",
+          "action": "Toggle orthographic/perspective"
+        },
+        {
+          "keys": "Numpad .",
+          "action": "View selected (frame selection)"
+        },
+        {
+          "keys": "/",
+          "action": "Toggle local view"
+        },
+        {
+          "keys": "Shift + Space",
+          "action": "Toggle fullscreen area"
+        }
+      ]
+    },
+    {
+      "title": "Object Mode",
+      "shortcuts": [
+        {
+          "keys": "g",
+          "action": "Grab/move selected object"
+        },
+        {
+          "keys": "r",
+          "action": "Rotate selected object"
+        },
+        {
+          "keys": "s",
+          "action": "Scale selected object"
+        },
+        {
+          "keys": "x",
+          "action": "Delete selected object"
+        },
+        {
+          "keys": "Shift + D",
+          "action": "Duplicate selected object"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy object"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste object"
+        },
+        {
+          "keys": "Tab",
+          "action": "Toggle Edit Mode"
+        },
+        {
+          "keys": "a",
+          "action": "Select all"
+        },
+        {
+          "keys": "Alt + A",
+          "action": "Deselect all"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Join selected objects"
+        },
+        {
+          "keys": "h",
+          "action": "Hide selected object"
+        },
+        {
+          "keys": "Alt + H",
+          "action": "Unhide all objects"
+        },
+        {
+          "keys": "Shift + A",
+          "action": "Add new object (mesh, light, etc.)"
+        },
+        {
+          "keys": "n",
+          "action": "Toggle sidebar (item/transform panel)"
+        }
+      ]
+    },
+    {
+      "title": "Edit Mode",
+      "shortcuts": [
+        {
+          "keys": "1",
+          "action": "Vertex select mode"
+        },
+        {
+          "keys": "2",
+          "action": "Edge select mode"
+        },
+        {
+          "keys": "3",
+          "action": "Face select mode"
+        },
+        {
+          "keys": "e",
+          "action": "Extrude"
+        },
+        {
+          "keys": "i",
+          "action": "Inset faces"
+        },
+        {
+          "keys": "Ctrl + B",
+          "action": "Bevel"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Loop cut and slide"
+        },
+        {
+          "keys": "m",
+          "action": "Merge vertices menu"
+        },
+        {
+          "keys": "x",
+          "action": "Delete vertices/edges/faces menu"
+        },
+        {
+          "keys": "l",
+          "action": "Select linked mesh island"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Invert selection"
+        }
+      ]
+    },
+    {
+      "title": "Transform Constraints",
+      "shortcuts": [
+        {
+          "keys": "x",
+          "action": "Constrain transform to X axis"
+        },
+        {
+          "keys": "y",
+          "action": "Constrain transform to Y axis"
+        },
+        {
+          "keys": "z",
+          "action": "Constrain transform to Z axis"
+        },
+        {
+          "keys": "Shift + X",
+          "action": "Constrain transform to exclude X"
+        },
+        {
+          "keys": "Ctrl",
+          "action": "Snap during transform"
+        },
+        {
+          "keys": "Shift",
+          "action": "Precision mode during transform"
+        }
+      ]
+    },
+    {
+      "title": "File & General",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + S",
+          "action": "Save file"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open file"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "New file"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo"
+        },
+        {
+          "keys": "F2",
+          "action": "Rename selected"
+        },
+        {
+          "keys": "F9",
+          "action": "Open operator redo panel"
+        }
+      ]
+    },
+    {
+      "title": "Rendering & Playback",
+      "shortcuts": [
+        {
+          "keys": "F12",
+          "action": "Render image"
+        },
+        {
+          "keys": "Ctrl + F12",
+          "action": "Render animation"
+        },
+        {
+          "keys": "z",
+          "action": "Shading pie menu (viewport shading)"
+        },
+        {
+          "keys": "Space",
+          "action": "Play/pause animation"
+        },
+        {
+          "keys": "Shift + Right",
+          "action": "Jump to next keyframe/end"
+        },
+        {
+          "keys": "Shift + Left",
+          "action": "Jump to previous keyframe/start"
+        }
+      ]
+    },
+    {
+      "title": "Workspaces",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Page Down",
+          "action": "Next workspace tab"
+        },
+        {
+          "keys": "Ctrl + Page Up",
+          "action": "Previous workspace tab"
+        },
+        {
+          "keys": "Ctrl + Space",
+          "action": "Maximize current area"
+        }
+      ]
+    }
+  ]
+}

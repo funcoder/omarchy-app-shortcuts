@@ -1,0 +1,121 @@
+{
+  "key": "app:foot",
+  "name": "Foot",
+  "sections": [
+    {
+      "title": "Clipboard",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + C",
+          "action": "Copy selected text"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste from clipboard"
+        },
+        {
+          "keys": "Shift + Insert",
+          "action": "Paste from primary selection"
+        }
+      ]
+    },
+    {
+      "title": "Font Size",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + +",
+          "action": "Increase font size"
+        },
+        {
+          "keys": "Ctrl + Shift + -",
+          "action": "Decrease font size"
+        },
+        {
+          "keys": "Ctrl + Shift + 0",
+          "action": "Reset font size"
+        }
+      ]
+    },
+    {
+      "title": "Scrollback",
+      "shortcuts": [
+        {
+          "keys": "Shift + Page_Up",
+          "action": "Scroll up one page"
+        },
+        {
+          "keys": "Shift + Page_Down",
+          "action": "Scroll down one page"
+        },
+        {
+          "keys": "Shift + Up",
+          "action": "Scroll up one line"
+        },
+        {
+          "keys": "Shift + Down",
+          "action": "Scroll down one line"
+        },
+        {
+          "keys": "Shift + End",
+          "action": "Scroll to bottom"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + R",
+          "action": "Start scrollback search"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Search backward (in search mode)"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Search forward (in search mode)"
+        },
+        {
+          "keys": "Enter",
+          "action": "Exit search, keep cursor position"
+        },
+        {
+          "keys": "Escape",
+          "action": "Cancel search"
+        }
+      ]
+    },
+    {
+      "title": "Window & Spawn",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Spawn a new terminal window"
+        },
+        {
+          "keys": "Ctrl + Shift + F11",
+          "action": "Toggle fullscreen"
+        }
+      ]
+    },
+    {
+      "title": "URL Jumping",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Show and jump to URLs on screen"
+        }
+      ]
+    },
+    {
+      "title": "Selection Mode",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + Space",
+          "action": "Enter mouse-free selection mode"
+        }
+      ]
+    }
+  ]
+}

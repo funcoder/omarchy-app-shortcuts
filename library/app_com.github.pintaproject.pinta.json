@@ -1,0 +1,261 @@
+{
+  "key": "app:com.github.pintaproject.pinta",
+  "name": "Pinta",
+  "sections": [
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New image"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open image"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save image"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save image as"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Import from file"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print image"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit Pinta"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close current image"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut selection"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selection"
+        },
+        {
+          "keys": "Ctrl + Shift + C",
+          "action": "Copy merged"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste into new image"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Ctrl + Shift + A",
+          "action": "Deselect all"
+        },
+        {
+          "keys": "Delete",
+          "action": "Erase selection"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + J",
+          "action": "Zoom to window"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Zoom to selection"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + Shift + E",
+          "action": "Actual size (100%)"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Tab",
+          "action": "Toggle toolbars and palettes"
+        }
+      ]
+    },
+    {
+      "title": "Image",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + R",
+          "action": "Resize image"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Crop to selection"
+        },
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Flip image horizontal"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Flatten image"
+        },
+        {
+          "keys": "Ctrl + Shift + X",
+          "action": "Auto crop image"
+        }
+      ]
+    },
+    {
+      "title": "Layers",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Add new layer"
+        },
+        {
+          "keys": "Ctrl + F4",
+          "action": "Delete layer"
+        },
+        {
+          "keys": "F4",
+          "action": "Layer properties"
+        },
+        {
+          "keys": "Ctrl + Shift + D",
+          "action": "Duplicate layer"
+        },
+        {
+          "keys": "Ctrl + Shift + M",
+          "action": "Merge layer down"
+        }
+      ]
+    },
+    {
+      "title": "Adjustments",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + L",
+          "action": "Auto level"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Black and white"
+        },
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Invert colors"
+        },
+        {
+          "keys": "F",
+          "action": "Repeat last effect"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "shortcuts": [
+        {
+          "keys": "S",
+          "action": "Rectangle select tool"
+        },
+        {
+          "keys": "O",
+          "action": "Ellipse select tool"
+        },
+        {
+          "keys": "L",
+          "action": "Lasso select tool"
+        },
+        {
+          "keys": "M",
+          "action": "Move selection tool"
+        },
+        {
+          "keys": "V",
+          "action": "Move selected pixels tool"
+        },
+        {
+          "keys": "Z",
+          "action": "Zoom tool"
+        },
+        {
+          "keys": "H",
+          "action": "Pan tool"
+        },
+        {
+          "keys": "P",
+          "action": "Paint bucket tool"
+        },
+        {
+          "keys": "G",
+          "action": "Gradient tool"
+        },
+        {
+          "keys": "B",
+          "action": "Paintbrush tool"
+        },
+        {
+          "keys": "E",
+          "action": "Eraser tool"
+        },
+        {
+          "keys": "I",
+          "action": "Color picker tool"
+        },
+        {
+          "keys": "C",
+          "action": "Clone stamp tool"
+        },
+        {
+          "keys": "R",
+          "action": "Rectangle shape tool"
+        },
+        {
+          "keys": "Y",
+          "action": "Line/curve shape tool"
+        },
+        {
+          "keys": "T",
+          "action": "Text tool"
+        }
+      ]
+    }
+  ]
+}

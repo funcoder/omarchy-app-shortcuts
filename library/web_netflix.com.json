@@ -1,0 +1,77 @@
+{
+  "key": "web:netflix.com",
+  "name": "Netflix",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play or pause"
+        },
+        {
+          "keys": "k",
+          "action": "Play or pause"
+        },
+        {
+          "keys": "f",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "m",
+          "action": "Mute or unmute"
+        },
+        {
+          "keys": "Left",
+          "action": "Rewind 10 seconds"
+        },
+        {
+          "keys": "Right",
+          "action": "Fast forward 10 seconds"
+        },
+        {
+          "keys": "Up",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "Down",
+          "action": "Decrease volume"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Esc",
+          "action": "Exit fullscreen or close overlay"
+        },
+        {
+          "keys": "Tab",
+          "action": "Move focus between controls"
+        },
+        {
+          "keys": "Enter",
+          "action": "Activate focused control"
+        },
+        {
+          "keys": "Shift + Left",
+          "action": "Previous episode (where available)"
+        },
+        {
+          "keys": "Shift + Right",
+          "action": "Next episode (where available)"
+        }
+      ]
+    },
+    {
+      "title": "Subtitles & Audio",
+      "shortcuts": [
+        {
+          "keys": "s",
+          "action": "Cycle subtitle/audio quick menu (where available)"
+        }
+      ]
+    }
+  ]
+}

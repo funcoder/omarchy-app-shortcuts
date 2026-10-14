@@ -1,0 +1,77 @@
+{
+  "key": "web:web.whatsapp.com",
+  "name": "WhatsApp",
+  "sections": [
+    {
+      "title": "Navigation & Search",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Start a new chat"
+        },
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Start a new group"
+        },
+        {
+          "keys": "Ctrl + Shift + ]",
+          "action": "Go to next chat"
+        },
+        {
+          "keys": "Ctrl + Shift + [",
+          "action": "Go to previous chat"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Search chats"
+        },
+        {
+          "keys": "Esc",
+          "action": "Close current chat, search, or dialog"
+        }
+      ]
+    },
+    {
+      "title": "Chat Management",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + M",
+          "action": "Mute chat"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Archive chat"
+        },
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Mark chat as unread"
+        },
+        {
+          "keys": "Ctrl + Backspace",
+          "action": "Delete chat"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Open profile & about"
+        }
+      ]
+    },
+    {
+      "title": "Messaging & Help",
+      "shortcuts": [
+        {
+          "keys": "Enter",
+          "action": "Send message"
+        },
+        {
+          "keys": "Shift + Enter",
+          "action": "Insert a line break"
+        },
+        {
+          "keys": "Ctrl + Shift + ?",
+          "action": "Show keyboard shortcuts list"
+        }
+      ]
+    }
+  ]
+}

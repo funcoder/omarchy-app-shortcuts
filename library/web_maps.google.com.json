@@ -1,0 +1,97 @@
+{
+  "key": "web:maps.google.com",
+  "name": "Google Maps",
+  "sections": [
+    {
+      "title": "Map Navigation",
+      "shortcuts": [
+        {
+          "keys": "+",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "-",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "↑",
+          "action": "Pan up"
+        },
+        {
+          "keys": "↓",
+          "action": "Pan down"
+        },
+        {
+          "keys": "←",
+          "action": "Pan left"
+        },
+        {
+          "keys": "→",
+          "action": "Pan right"
+        },
+        {
+          "keys": "Shift + ↑",
+          "action": "Rotate map"
+        },
+        {
+          "keys": "Shift + →",
+          "action": "Tilt map view"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Pan up a large step"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Pan down a large step"
+        }
+      ]
+    },
+    {
+      "title": "Search & Directions",
+      "shortcuts": [
+        {
+          "keys": "/",
+          "action": "Focus the search box"
+        },
+        {
+          "keys": "Enter",
+          "action": "Run search or confirm selection"
+        },
+        {
+          "keys": "Esc",
+          "action": "Clear search box or close panel"
+        }
+      ]
+    },
+    {
+      "title": "Street View",
+      "shortcuts": [
+        {
+          "keys": "↑",
+          "action": "Move forward in Street View"
+        },
+        {
+          "keys": "↓",
+          "action": "Move backward in Street View"
+        },
+        {
+          "keys": "←",
+          "action": "Turn view left"
+        },
+        {
+          "keys": "→",
+          "action": "Turn view right"
+        },
+        {
+          "keys": "Shift + ↑",
+          "action": "Tilt view up"
+        },
+        {
+          "keys": "Shift + ↓",
+          "action": "Tilt view down"
+        }
+      ]
+    }
+  ]
+}

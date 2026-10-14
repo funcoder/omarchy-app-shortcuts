@@ -1,0 +1,209 @@
+{
+  "key": "app:unityhub-unity-editor",
+  "name": "Unity Editor",
+  "sections": [
+    {
+      "title": "Scene View Navigation",
+      "shortcuts": [
+        {
+          "keys": "Q",
+          "action": "Hand/Pan tool"
+        },
+        {
+          "keys": "W",
+          "action": "Move tool"
+        },
+        {
+          "keys": "E",
+          "action": "Rotate tool"
+        },
+        {
+          "keys": "R",
+          "action": "Scale tool"
+        },
+        {
+          "keys": "T",
+          "action": "Rect transform tool"
+        },
+        {
+          "keys": "Y",
+          "action": "Combined move/rotate/scale tool"
+        },
+        {
+          "keys": "F",
+          "action": "Frame selected object in Scene view"
+        },
+        {
+          "keys": "Shift + F",
+          "action": "Lock view to selected object"
+        },
+        {
+          "keys": "Alt + left-click drag",
+          "action": "Orbit Scene view camera"
+        }
+      ]
+    },
+    {
+      "title": "Editing & Object Manipulation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Duplicate selected object"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selected object"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Ctrl + Alt + F",
+          "action": "Move object to camera view position"
+        }
+      ]
+    },
+    {
+      "title": "Play Mode & Testing",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + P",
+          "action": "Play / Stop"
+        },
+        {
+          "keys": "Ctrl + Shift + P",
+          "action": "Pause"
+        },
+        {
+          "keys": "Ctrl + Alt + P",
+          "action": "Step frame"
+        }
+      ]
+    },
+    {
+      "title": "File & Project Operations",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + S",
+          "action": "Save scene"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save scene as"
+        },
+        {
+          "keys": "Ctrl + Shift + Alt + S",
+          "action": "Save project"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "New scene"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open scene"
+        },
+        {
+          "keys": "Ctrl + B",
+          "action": "Build project"
+        },
+        {
+          "keys": "Ctrl + Shift + B",
+          "action": "Open Build Settings"
+        }
+      ]
+    },
+    {
+      "title": "Window Management",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + 1",
+          "action": "Open Scene view"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Open Game view"
+        },
+        {
+          "keys": "Ctrl + 3",
+          "action": "Open Inspector"
+        },
+        {
+          "keys": "Ctrl + 4",
+          "action": "Open Hierarchy"
+        },
+        {
+          "keys": "Ctrl + 5",
+          "action": "Open Project window"
+        },
+        {
+          "keys": "Ctrl + 6",
+          "action": "Open Animation window"
+        },
+        {
+          "keys": "Ctrl + 7",
+          "action": "Open Animator window"
+        },
+        {
+          "keys": "Ctrl + 9",
+          "action": "Open Asset Store"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Open Console"
+        }
+      ]
+    },
+    {
+      "title": "Search & Hierarchy",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + K",
+          "action": "Search anything (Quick Search)"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Focus search field in active window"
+        },
+        {
+          "keys": "Ctrl + Shift + F",
+          "action": "Find/replace references"
+        }
+      ]
+    },
+    {
+      "title": "Script Editing",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Create new C# script"
+        },
+        {
+          "keys": "F12",
+          "action": "Go to definition (script editor)"
+        }
+      ]
+    }
+  ]
+}

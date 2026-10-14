@@ -1,0 +1,156 @@
+{
+  "key": "app:imv",
+  "name": "imv",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Next image"
+        },
+        {
+          "keys": "Backspace",
+          "action": "Previous image"
+        },
+        {
+          "keys": "j",
+          "action": "Next image"
+        },
+        {
+          "keys": "k",
+          "action": "Previous image"
+        },
+        {
+          "keys": "g g",
+          "action": "Jump to first image"
+        },
+        {
+          "keys": "Shift + G",
+          "action": "Jump to last image"
+        }
+      ]
+    },
+    {
+      "title": "Zoom & Pan",
+      "shortcuts": [
+        {
+          "keys": "+",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "-",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "r",
+          "action": "Reset zoom and pan"
+        },
+        {
+          "keys": "c",
+          "action": "Center image"
+        },
+        {
+          "keys": "h",
+          "action": "Pan left"
+        },
+        {
+          "keys": "l",
+          "action": "Pan right"
+        },
+        {
+          "keys": "Up",
+          "action": "Pan up"
+        },
+        {
+          "keys": "Down",
+          "action": "Pan down"
+        },
+        {
+          "keys": "Left",
+          "action": "Pan left"
+        },
+        {
+          "keys": "Right",
+          "action": "Pan right"
+        }
+      ]
+    },
+    {
+      "title": "Transform",
+      "shortcuts": [
+        {
+          "keys": "Shift + R",
+          "action": "Rotate image clockwise"
+        },
+        {
+          "keys": "Shift + L",
+          "action": "Rotate image counter-clockwise"
+        },
+        {
+          "keys": "Shift + H",
+          "action": "Flip image horizontally"
+        },
+        {
+          "keys": "Shift + V",
+          "action": "Flip image vertically"
+        }
+      ]
+    },
+    {
+      "title": "Display & Playback",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "d",
+          "action": "Toggle overlay info"
+        },
+        {
+          "keys": "a",
+          "action": "Toggle scale-to-window mode"
+        },
+        {
+          "keys": "p",
+          "action": "Pause/resume animation or slideshow"
+        },
+        {
+          "keys": ".",
+          "action": "Step single frame of animation"
+        }
+      ]
+    },
+    {
+      "title": "Multi-frame & File Management",
+      "shortcuts": [
+        {
+          "keys": "i",
+          "action": "Toggle multi-frame overview mode"
+        },
+        {
+          "keys": "x",
+          "action": "Close current image"
+        },
+        {
+          "keys": "Shift + X",
+          "action": "Remove current image from disk"
+        },
+        {
+          "keys": "q",
+          "action": "Quit imv"
+        }
+      ]
+    },
+    {
+      "title": "Command Mode",
+      "shortcuts": [
+        {
+          "keys": ":",
+          "action": "Enter command mode"
+        }
+      ]
+    }
+  ]
+}

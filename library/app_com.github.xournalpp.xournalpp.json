@@ -1,0 +1,204 @@
+{
+  "key": "app:com.github.xournalpp.xournalpp",
+  "name": "Xournal++",
+  "sections": [
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New file"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open file"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print"
+        },
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Import PDF"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Export as"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selection"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Search"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "shortcuts": [
+        {
+          "keys": "P",
+          "action": "Pen tool"
+        },
+        {
+          "keys": "E",
+          "action": "Eraser tool"
+        },
+        {
+          "keys": "H",
+          "action": "Highlighter tool"
+        },
+        {
+          "keys": "T",
+          "action": "Text tool"
+        },
+        {
+          "keys": "S",
+          "action": "Selection tool"
+        },
+        {
+          "keys": "I",
+          "action": "Image tool"
+        },
+        {
+          "keys": "F",
+          "action": "Draw rectangle shape"
+        },
+        {
+          "keys": "O",
+          "action": "Draw circle shape"
+        },
+        {
+          "keys": "L",
+          "action": "Draw line shape"
+        }
+      ]
+    },
+    {
+      "title": "Page",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Insert new page"
+        },
+        {
+          "keys": "Ctrl + Delete",
+          "action": "Delete current page"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Next page"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Previous page"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to first page"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to last page"
+        },
+        {
+          "keys": "Ctrl + G",
+          "action": "Go to page"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + +",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Zoom to 100%"
+        },
+        {
+          "keys": "Ctrl + Shift + F",
+          "action": "Zoom to fit page"
+        },
+        {
+          "keys": "F5",
+          "action": "Toggle fullscreen presentation mode"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "F9",
+          "action": "Toggle sidebar"
+        }
+      ]
+    },
+    {
+      "title": "Layers",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + A",
+          "action": "Add new layer"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Select next layer"
+        },
+        {
+          "keys": "Ctrl + Shift + J",
+          "action": "Select previous layer"
+        }
+      ]
+    }
+  ]
+}

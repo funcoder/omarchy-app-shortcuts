@@ -1,0 +1,69 @@
+{
+  "key": "web:disneyplus.com",
+  "name": "Disney+",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play / pause"
+        },
+        {
+          "keys": "k",
+          "action": "Play / pause"
+        },
+        {
+          "keys": "←",
+          "action": "Rewind 10 seconds"
+        },
+        {
+          "keys": "→",
+          "action": "Fast forward 10 seconds"
+        },
+        {
+          "keys": "j",
+          "action": "Rewind 10 seconds"
+        },
+        {
+          "keys": "l",
+          "action": "Fast forward 10 seconds"
+        }
+      ]
+    },
+    {
+      "title": "Volume",
+      "shortcuts": [
+        {
+          "keys": "↑",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "↓",
+          "action": "Decrease volume"
+        },
+        {
+          "keys": "m",
+          "action": "Mute / unmute"
+        }
+      ]
+    },
+    {
+      "title": "Display",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Escape",
+          "action": "Exit fullscreen"
+        },
+        {
+          "keys": "c",
+          "action": "Toggle subtitles / captions"
+        }
+      ]
+    }
+  ]
+}

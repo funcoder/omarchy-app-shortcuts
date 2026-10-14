@@ -1,0 +1,77 @@
+{
+  "key": "web:primevideo.com",
+  "name": "Prime Video",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play or pause"
+        },
+        {
+          "keys": "k",
+          "action": "Play or pause"
+        },
+        {
+          "keys": "←",
+          "action": "Rewind 10 seconds"
+        },
+        {
+          "keys": "→",
+          "action": "Fast forward 10 seconds"
+        },
+        {
+          "keys": "j",
+          "action": "Rewind 10 seconds"
+        },
+        {
+          "keys": "l",
+          "action": "Fast forward 10 seconds"
+        },
+        {
+          "keys": "Home",
+          "action": "Jump to start"
+        },
+        {
+          "keys": "End",
+          "action": "Jump to end"
+        }
+      ]
+    },
+    {
+      "title": "Volume",
+      "shortcuts": [
+        {
+          "keys": "↑",
+          "action": "Volume up"
+        },
+        {
+          "keys": "↓",
+          "action": "Volume down"
+        },
+        {
+          "keys": "m",
+          "action": "Mute or unmute"
+        }
+      ]
+    },
+    {
+      "title": "Display",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Esc",
+          "action": "Exit fullscreen"
+        },
+        {
+          "keys": "c",
+          "action": "Toggle subtitles/captions"
+        }
+      ]
+    }
+  ]
+}

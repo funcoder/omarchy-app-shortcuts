@@ -1,0 +1,86 @@
+{
+  "key": "web:contacts.google.com",
+  "name": "Google Contacts",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "j",
+          "action": "Move to next contact in list"
+        },
+        {
+          "keys": "k",
+          "action": "Move to previous contact in list"
+        },
+        {
+          "keys": "Enter",
+          "action": "Open selected contact"
+        },
+        {
+          "keys": "/",
+          "action": "Focus search box"
+        },
+        {
+          "keys": "g c",
+          "action": "Go to Contacts home"
+        },
+        {
+          "keys": "g a",
+          "action": "Go to All contacts"
+        },
+        {
+          "keys": "g s",
+          "action": "Go to Starred contacts"
+        },
+        {
+          "keys": "g f",
+          "action": "Go to Frequently contacted"
+        },
+        {
+          "keys": "g d",
+          "action": "Go to Duplicates"
+        }
+      ]
+    },
+    {
+      "title": "Contact Actions",
+      "shortcuts": [
+        {
+          "keys": "c",
+          "action": "Create a new contact"
+        },
+        {
+          "keys": "e",
+          "action": "Edit selected contact"
+        },
+        {
+          "keys": "#",
+          "action": "Delete selected contact"
+        },
+        {
+          "keys": "s",
+          "action": "Star or unstar selected contact"
+        }
+      ]
+    },
+    {
+      "title": "Selection",
+      "shortcuts": [
+        {
+          "keys": "x",
+          "action": "Select or deselect a contact"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "shortcuts": [
+        {
+          "keys": "?",
+          "action": "Show keyboard shortcuts list"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "key": "app:org.kde.kdenlive",
+  "name": "Kdenlive",
+  "sections": [
+    {
+      "title": "Playback & Navigation",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play/pause"
+        },
+        {
+          "keys": "j",
+          "action": "Play backward / rewind"
+        },
+        {
+          "keys": "k",
+          "action": "Pause"
+        },
+        {
+          "keys": "l",
+          "action": "Play forward / fast forward"
+        },
+        {
+          "keys": "Home",
+          "action": "Go to project start"
+        },
+        {
+          "keys": "End",
+          "action": "Go to project end"
+        },
+        {
+          "keys": "Left",
+          "action": "Go to previous frame"
+        },
+        {
+          "keys": "Right",
+          "action": "Go to next frame"
+        },
+        {
+          "keys": "Up",
+          "action": "Go to previous marker/edit point"
+        },
+        {
+          "keys": "Down",
+          "action": "Go to next marker/edit point"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to clip start"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to clip end"
+        }
+      ]
+    },
+    {
+      "title": "Editing",
+      "shortcuts": [
+        {
+          "keys": "i",
+          "action": "Set clip zone in point"
+        },
+        {
+          "keys": "o",
+          "action": "Set clip zone out point"
+        },
+        {
+          "keys": "b",
+          "action": "Cut clip at playhead (razor)"
+        },
+        {
+          "keys": "a",
+          "action": "Insert zone in timeline (insert edit)"
+        },
+        {
+          "keys": "v",
+          "action": "Overwrite zone in timeline"
+        },
+        {
+          "keys": "r",
+          "action": "Resize clip to fit zone"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut selected clip"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected clip"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste clip"
+        },
+        {
+          "keys": "Del",
+          "action": "Delete selected clip"
+        },
+        {
+          "keys": "Shift + Del",
+          "action": "Extract (ripple delete) clip"
+        },
+        {
+          "keys": "x",
+          "action": "Cut and lift clip"
+        }
+      ]
+    },
+    {
+      "title": "Timeline Tools & Zoom",
+      "shortcuts": [
+        {
+          "keys": "s",
+          "action": "Switch to razor (cut) tool"
+        },
+        {
+          "keys": "m",
+          "action": "Switch to selection tool"
+        },
+        {
+          "keys": "Ctrl + +",
+          "action": "Zoom in on timeline"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out on timeline"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Fit timeline zoom to project"
+        },
+        {
+          "keys": "Ctrl + Shift + H",
+          "action": "Fit zoom to timeline"
+        },
+        {
+          "keys": "f",
+          "action": "Fit project in timeline view"
+        }
+      ]
+    },
+    {
+      "title": "Markers & Guides",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + .",
+          "action": "Add marker/guide at playhead"
+        },
+        {
+          "keys": "Ctrl + Alt + .",
+          "action": "Edit marker/guide at playhead"
+        },
+        {
+          "keys": "Ctrl + Alt + Backspace",
+          "action": "Delete marker/guide at playhead"
+        }
+      ]
+    },
+    {
+      "title": "Clip & Track Operations",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Group selected clips"
+        },
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Ungroup selected clips"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Change clip speed"
+        },
+        {
+          "keys": "Ctrl + Shift + T",
+          "action": "Insert new track"
+        },
+        {
+          "keys": "Ctrl + Shift + Del",
+          "action": "Delete current track"
+        },
+        {
+          "keys": "Ctrl + Shift + M",
+          "action": "Mute/unmute current track"
+        },
+        {
+          "keys": "Ctrl + Shift + L",
+          "action": "Lock/unlock current track"
+        }
+      ]
+    },
+    {
+      "title": "Project & File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New project"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open project"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save project"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save project as"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Add clip to project bin"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Render project"
+        }
+      ]
+    },
+    {
+      "title": "Selection & View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all clips"
+        },
+        {
+          "keys": "Ctrl + Shift + A",
+          "action": "Deselect all clips"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find clip in project bin"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen monitor"
+        },
+        {
+          "keys": "F5",
+          "action": "Refresh/preview monitor"
+        }
+      ]
+    },
+    {
+      "title": "General",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit Kdenlive"
+        },
+        {
+          "keys": "F1",
+          "action": "Open help"
+        },
+        {
+          "keys": "Shift + F1",
+          "action": "Show tool tips with shortcuts"
+        }
+      ]
+    }
+  ]
+}

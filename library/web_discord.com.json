@@ -1,0 +1,192 @@
+{
+  "key": "web:discord.com",
+  "name": "Discord",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + K",
+          "action": "Quick switcher (jump to server/channel/DM)"
+        },
+        {
+          "keys": "Alt + Up",
+          "action": "Go to previous channel/DM"
+        },
+        {
+          "keys": "Alt + Down",
+          "action": "Go to next channel/DM"
+        },
+        {
+          "keys": "Ctrl + Shift + Alt + Up",
+          "action": "Go to previous unread channel"
+        },
+        {
+          "keys": "Ctrl + Shift + Alt + Down",
+          "action": "Go to next unread channel"
+        },
+        {
+          "keys": "Alt + Shift + Up",
+          "action": "Navigate to previous server"
+        },
+        {
+          "keys": "Alt + Shift + Down",
+          "action": "Navigate to next server"
+        },
+        {
+          "keys": "Ctrl + Alt + Up",
+          "action": "Jump to previous server with unread"
+        },
+        {
+          "keys": "Ctrl + Alt + Down",
+          "action": "Jump to next server with unread"
+        },
+        {
+          "keys": "Ctrl + Shift + T",
+          "action": "Reopen closed DM"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Switch to next open DM/server tab"
+        },
+        {
+          "keys": "Ctrl + Shift + Tab",
+          "action": "Switch to previous open DM/server tab"
+        }
+      ]
+    },
+    {
+      "title": "Messaging",
+      "shortcuts": [
+        {
+          "keys": "Enter",
+          "action": "Send message"
+        },
+        {
+          "keys": "Shift + Enter",
+          "action": "Insert new line in message"
+        },
+        {
+          "keys": "Up",
+          "action": "Edit your last message (in empty input box)"
+        },
+        {
+          "keys": "Esc",
+          "action": "Cancel editing/replying"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste without formatting"
+        },
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold selected text"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italicize selected text"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Insert code mark around selected text"
+        },
+        {
+          "keys": "Shift + Up",
+          "action": "Select previous message (for multi-select actions)"
+        }
+      ]
+    },
+    {
+      "title": "Search & Marking Read",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Search in current channel/DM"
+        },
+        {
+          "keys": "Escape",
+          "action": "Close search or exit current context"
+        },
+        {
+          "keys": "Shift + Esc",
+          "action": "Mark current channel as read"
+        },
+        {
+          "keys": "Ctrl + Shift + Esc",
+          "action": "Mark current server as read"
+        },
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Toggle unread messages notice"
+        }
+      ]
+    },
+    {
+      "title": "Voice & Video",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + M",
+          "action": "Toggle mute"
+        },
+        {
+          "keys": "Ctrl + Shift + D",
+          "action": "Toggle deafen"
+        },
+        {
+          "keys": "Ctrl + Shift + K",
+          "action": "Disconnect from voice call"
+        },
+        {
+          "keys": "Ctrl + .",
+          "action": "Toggle voice/video settings shortcut hints"
+        }
+      ]
+    },
+    {
+      "title": "Server & UI Toggles",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Toggle inbox (unread/mentions)"
+        },
+        {
+          "keys": "Ctrl + Shift + A",
+          "action": "Open account settings"
+        },
+        {
+          "keys": "Ctrl + Shift + H",
+          "action": "Toggle hide side-rail/server list"
+        },
+        {
+          "keys": "Ctrl + /",
+          "action": "Open keybind list / shortcut help"
+        },
+        {
+          "keys": "Ctrl + Comma",
+          "action": "Open user settings"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Increase text/UI zoom"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Decrease text/UI zoom"
+        }
+      ]
+    },
+    {
+      "title": "Emoji & Reactions",
+      "shortcuts": [
+        {
+          "keys": ":",
+          "action": "Trigger emoji autocomplete picker"
+        },
+        {
+          "keys": "Ctrl + Shift + E",
+          "action": "Open emoji picker"
+        }
+      ]
+    }
+  ]
+}

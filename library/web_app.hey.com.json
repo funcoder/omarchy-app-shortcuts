@@ -1,0 +1,107 @@
+{
+  "key": "web:app.hey.com",
+  "name": "HEY",
+  "sections": [
+    {
+      "title": "Go To",
+      "shortcuts": [
+        {
+          "keys": "g i",
+          "action": "Go to Imbox"
+        },
+        {
+          "keys": "g f",
+          "action": "Go to The Feed"
+        },
+        {
+          "keys": "g p",
+          "action": "Go to Paper Trail"
+        },
+        {
+          "keys": "g r",
+          "action": "Go to Reply Later stack"
+        },
+        {
+          "keys": "g s",
+          "action": "Go to Set Aside stack"
+        }
+      ]
+    },
+    {
+      "title": "Navigate Messages",
+      "shortcuts": [
+        {
+          "keys": "j",
+          "action": "Next message"
+        },
+        {
+          "keys": "k",
+          "action": "Previous message"
+        },
+        {
+          "keys": "o",
+          "action": "Open selected message"
+        },
+        {
+          "keys": "u",
+          "action": "Back to list"
+        }
+      ]
+    },
+    {
+      "title": "Compose & Reply",
+      "shortcuts": [
+        {
+          "keys": "c",
+          "action": "Compose new email"
+        },
+        {
+          "keys": "r",
+          "action": "Reply"
+        },
+        {
+          "keys": "a",
+          "action": "Reply all"
+        },
+        {
+          "keys": "f",
+          "action": "Forward"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Send email"
+        }
+      ]
+    },
+    {
+      "title": "Organize",
+      "shortcuts": [
+        {
+          "keys": "e",
+          "action": "Set aside"
+        },
+        {
+          "keys": "l",
+          "action": "Add to Reply Later"
+        },
+        {
+          "keys": "Shift + e",
+          "action": "Move back to Imbox"
+        }
+      ]
+    },
+    {
+      "title": "Search & Help",
+      "shortcuts": [
+        {
+          "keys": "/",
+          "action": "Search"
+        },
+        {
+          "keys": "?",
+          "action": "Show keyboard shortcuts"
+        }
+      ]
+    }
+  ]
+}

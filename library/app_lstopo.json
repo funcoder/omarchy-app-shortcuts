@@ -1,0 +1,19 @@
+{
+  "key": "app:lstopo",
+  "name": "Hardware Locality (lstopo)",
+  "sections": [
+    {
+      "title": "Window",
+      "shortcuts": [
+        {
+          "keys": "q",
+          "action": "Quit"
+        },
+        {
+          "keys": "Escape",
+          "action": "Quit"
+        }
+      ]
+    }
+  ]
+}

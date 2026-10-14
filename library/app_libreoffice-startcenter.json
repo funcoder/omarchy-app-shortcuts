@@ -1,0 +1,298 @@
+{
+  "key": "app:libreoffice-startcenter",
+  "name": "LibreOffice",
+  "sections": [
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New document"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open document"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save document"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close document"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        }
+      ]
+    },
+    {
+      "title": "Editing",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste special"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Find and replace"
+        },
+        {
+          "keys": "Ctrl + Shift + F",
+          "action": "Repeat find next"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selection"
+        }
+      ]
+    },
+    {
+      "title": "Text Formatting",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italic"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Underline"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Clear direct formatting"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Align left"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Align center"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Align right"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Justify"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Apply Heading 1 style"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Apply Heading 2 style"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Apply default paragraph style"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Superscript"
+        },
+        {
+          "keys": "Ctrl + Shift + B",
+          "action": "Subscript"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to start of document"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to end of document"
+        },
+        {
+          "keys": "Ctrl + Right",
+          "action": "Move to next word"
+        },
+        {
+          "keys": "Ctrl + Left",
+          "action": "Move to previous word"
+        },
+        {
+          "keys": "Ctrl + Down",
+          "action": "Move to next paragraph"
+        },
+        {
+          "keys": "Ctrl + Up",
+          "action": "Move to previous paragraph"
+        },
+        {
+          "keys": "F5",
+          "action": "Open Navigator"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Switch between open documents"
+        }
+      ]
+    },
+    {
+      "title": "Spreadsheet (Calc)",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Page Down",
+          "action": "Next sheet"
+        },
+        {
+          "keys": "Ctrl + Page Up",
+          "action": "Previous sheet"
+        },
+        {
+          "keys": "Ctrl + Shift + L",
+          "action": "Toggle AutoFilter"
+        },
+        {
+          "keys": "F2",
+          "action": "Edit cell"
+        },
+        {
+          "keys": "F4",
+          "action": "Toggle cell reference type"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Format cells"
+        },
+        {
+          "keys": "Ctrl + Semicolon",
+          "action": "Insert current date"
+        },
+        {
+          "keys": "Ctrl + Shift + Semicolon",
+          "action": "Insert current time"
+        },
+        {
+          "keys": "Alt + Enter",
+          "action": "Fill selection / new line in cell"
+        },
+        {
+          "keys": "Ctrl + Space",
+          "action": "Select current column"
+        },
+        {
+          "keys": "Shift + Space",
+          "action": "Select current row"
+        }
+      ]
+    },
+    {
+      "title": "Presentation (Impress)",
+      "shortcuts": [
+        {
+          "keys": "F5",
+          "action": "Start presentation from first slide"
+        },
+        {
+          "keys": "Escape",
+          "action": "End presentation"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "New slide"
+        },
+        {
+          "keys": "Tab",
+          "action": "Select next object (edit view)"
+        }
+      ]
+    },
+    {
+      "title": "Objects & Tables",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Insert tab inside table cell"
+        },
+        {
+          "keys": "Tab",
+          "action": "Move to next table cell"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Move to previous table cell"
+        },
+        {
+          "keys": "F2",
+          "action": "Enter group / edit object"
+        },
+        {
+          "keys": "Escape",
+          "action": "Exit group / cancel editing"
+        }
+      ]
+    },
+    {
+      "title": "View & Help",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F1",
+          "action": "Show/hide tooltips"
+        },
+        {
+          "keys": "F1",
+          "action": "Open help"
+        },
+        {
+          "keys": "Ctrl + Shift + J",
+          "action": "Toggle full screen"
+        },
+        {
+          "keys": "Ctrl + F5",
+          "action": "Toggle sidebar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "key": "app:libreoffice-base",
+  "name": "LibreOffice Base",
+  "sections": [
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Create new document"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open document"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save document"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selected item"
+        },
+        {
+          "keys": "F2",
+          "action": "Rename selected item"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "F11",
+          "action": "Open Database (navigator) window"
+        },
+        {
+          "keys": "F5",
+          "action": "Open Navigator"
+        },
+        {
+          "keys": "Tab",
+          "action": "Move to next field or control"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Move to previous field or control"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Switch between open sections/panes"
+        },
+        {
+          "keys": "Home",
+          "action": "Go to first field in row"
+        },
+        {
+          "keys": "End",
+          "action": "Go to last field in row"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to first record"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to last record"
+        }
+      ]
+    },
+    {
+      "title": "Table Data Entry",
+      "shortcuts": [
+        {
+          "keys": "Tab",
+          "action": "Move to next field"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Move to previous field"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Insert line break in field"
+        },
+        {
+          "keys": "Esc",
+          "action": "Undo entry in current field/record"
+        },
+        {
+          "keys": "Ctrl + Delete",
+          "action": "Delete current record"
+        },
+        {
+          "keys": "Down",
+          "action": "Move to next record"
+        },
+        {
+          "keys": "Up",
+          "action": "Move to previous record"
+        }
+      ]
+    },
+    {
+      "title": "Query and SQL Editing",
+      "shortcuts": [
+        {
+          "keys": "F4",
+          "action": "Run SQL query / preview"
+        },
+        {
+          "keys": "F5",
+          "action": "Run query"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Switch to SQL view in query designer"
+        }
+      ]
+    },
+    {
+      "title": "Forms and Reports Design",
+      "shortcuts": [
+        {
+          "keys": "F4",
+          "action": "Open properties dialog of selected control"
+        },
+        {
+          "keys": "Tab",
+          "action": "Select next control in design view"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Select previous control in design view"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selected control"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Group selected objects"
+        }
+      ]
+    },
+    {
+      "title": "View and Help",
+      "shortcuts": [
+        {
+          "keys": "F1",
+          "action": "Open help"
+        },
+        {
+          "keys": "Ctrl + F1",
+          "action": "Show/hide tooltips"
+        },
+        {
+          "keys": "F6",
+          "action": "Cycle focus between panes"
+        }
+      ]
+    }
+  ]
+}

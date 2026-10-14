@@ -1,0 +1,78 @@
+{
+  "key": "app:system-config-printer",
+  "name": "Print Settings",
+  "sections": [
+    {
+      "title": "Printer Actions",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all printers in list"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selected printer"
+        },
+        {
+          "keys": "Enter",
+          "action": "Open properties of selected printer"
+        },
+        {
+          "keys": "F5",
+          "action": "Refresh printer list"
+        }
+      ]
+    },
+    {
+      "title": "File Menu",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Add new printer"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close current window"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Tab",
+          "action": "Move focus to next control"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Move focus to previous control"
+        },
+        {
+          "keys": "Up",
+          "action": "Move selection up in list"
+        },
+        {
+          "keys": "Down",
+          "action": "Move selection down in list"
+        },
+        {
+          "keys": "Esc",
+          "action": "Close dialog or cancel action"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "shortcuts": [
+        {
+          "keys": "F1",
+          "action": "Open help documentation"
+        }
+      ]
+    }
+  ]
+}

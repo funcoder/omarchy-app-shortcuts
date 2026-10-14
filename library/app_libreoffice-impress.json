@@ -1,0 +1,212 @@
+{
+  "key": "app:libreoffice-impress",
+  "name": "LibreOffice Impress",
+  "sections": [
+    {
+      "title": "Slide Show",
+      "shortcuts": [
+        {
+          "keys": "F5",
+          "action": "Start presentation from first slide"
+        },
+        {
+          "keys": "Shift + F5",
+          "action": "Start presentation from current slide"
+        },
+        {
+          "keys": "Esc",
+          "action": "End slide show"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Next slide or build step"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Previous slide or build step"
+        },
+        {
+          "keys": "Home",
+          "action": "Jump to first slide"
+        },
+        {
+          "keys": "End",
+          "action": "Jump to last slide"
+        },
+        {
+          "keys": "b",
+          "action": "Toggle black screen during show"
+        },
+        {
+          "keys": "w",
+          "action": "Toggle white screen during show"
+        }
+      ]
+    },
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New presentation"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open file"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close document"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste special"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Find and replace"
+        }
+      ]
+    },
+    {
+      "title": "Slides and Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + M",
+          "action": "Insert new slide"
+        },
+        {
+          "keys": "Tab",
+          "action": "Select next placeholder or object"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Select previous placeholder or object"
+        },
+        {
+          "keys": "Enter",
+          "action": "Enter text edit mode on selected object"
+        },
+        {
+          "keys": "F2",
+          "action": "Enter text edit mode on selected object"
+        },
+        {
+          "keys": "Esc",
+          "action": "Leave text edit mode or deselect"
+        }
+      ]
+    },
+    {
+      "title": "Text Formatting",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italic"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Underline"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Align left"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Align center"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Align right"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Justify"
+        }
+      ]
+    },
+    {
+      "title": "Objects and Drawing",
+      "shortcuts": [
+        {
+          "keys": "F4",
+          "action": "Open Position and Size dialog"
+        },
+        {
+          "keys": "F3",
+          "action": "Enter group to edit its objects"
+        },
+        {
+          "keys": "Ctrl + F3",
+          "action": "Exit group editing"
+        },
+        {
+          "keys": "F8",
+          "action": "Toggle edit points mode"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Group selected objects"
+        },
+        {
+          "keys": "Ctrl + Alt + Shift + G",
+          "action": "Ungroup selected objects"
+        }
+      ]
+    }
+  ]
+}

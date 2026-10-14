@@ -1,0 +1,293 @@
+{
+  "key": "app:mpv",
+  "name": "mpv",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play / pause"
+        },
+        {
+          "keys": "Left",
+          "action": "Seek backward 5 seconds"
+        },
+        {
+          "keys": "Right",
+          "action": "Seek forward 5 seconds"
+        },
+        {
+          "keys": "Down",
+          "action": "Seek backward 1 minute"
+        },
+        {
+          "keys": "Up",
+          "action": "Seek forward 1 minute"
+        },
+        {
+          "keys": "Shift + Left",
+          "action": "Seek backward 1 second (exact)"
+        },
+        {
+          "keys": "Shift + Right",
+          "action": "Seek forward 1 second (exact)"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Seek backward 5 minutes"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Seek forward 5 minutes"
+        },
+        {
+          "keys": ">",
+          "action": "Next item in playlist"
+        },
+        {
+          "keys": "<",
+          "action": "Previous item in playlist"
+        },
+        {
+          "keys": "Enter",
+          "action": "Next item in playlist"
+        },
+        {
+          "keys": "[",
+          "action": "Decrease playback speed by 10%"
+        },
+        {
+          "keys": "]",
+          "action": "Increase playback speed by 10%"
+        },
+        {
+          "keys": "{",
+          "action": "Halve playback speed"
+        },
+        {
+          "keys": "}",
+          "action": "Double playback speed"
+        },
+        {
+          "keys": "Backspace",
+          "action": "Reset playback speed to normal"
+        },
+        {
+          "keys": "q",
+          "action": "Quit"
+        },
+        {
+          "keys": "Shift + q",
+          "action": "Quit and save playback position"
+        },
+        {
+          "keys": "l",
+          "action": "Set/clear A-B loop points"
+        },
+        {
+          "keys": "Shift + l",
+          "action": "Toggle infinite looping"
+        }
+      ]
+    },
+    {
+      "title": "Volume & Audio",
+      "shortcuts": [
+        {
+          "keys": "9",
+          "action": "Decrease volume"
+        },
+        {
+          "keys": "0",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "m",
+          "action": "Mute audio"
+        },
+        {
+          "keys": "#",
+          "action": "Cycle audio tracks"
+        },
+        {
+          "keys": "Ctrl + +",
+          "action": "Increase audio delay"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Decrease audio delay"
+        }
+      ]
+    },
+    {
+      "title": "Video & Display",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Esc",
+          "action": "Exit fullscreen"
+        },
+        {
+          "keys": "1",
+          "action": "Decrease contrast"
+        },
+        {
+          "keys": "2",
+          "action": "Increase contrast"
+        },
+        {
+          "keys": "3",
+          "action": "Decrease brightness"
+        },
+        {
+          "keys": "4",
+          "action": "Increase brightness"
+        },
+        {
+          "keys": "5",
+          "action": "Decrease gamma"
+        },
+        {
+          "keys": "6",
+          "action": "Increase gamma"
+        },
+        {
+          "keys": "7",
+          "action": "Decrease saturation"
+        },
+        {
+          "keys": "8",
+          "action": "Increase saturation"
+        },
+        {
+          "keys": "Alt + 0",
+          "action": "Resize video window to 50%"
+        },
+        {
+          "keys": "Alt + 1",
+          "action": "Resize video window to 100%"
+        },
+        {
+          "keys": "Alt + 2",
+          "action": "Resize video window to 200%"
+        },
+        {
+          "keys": "w",
+          "action": "Zoom out video"
+        },
+        {
+          "keys": "e",
+          "action": "Zoom in video"
+        },
+        {
+          "keys": "Ctrl + h",
+          "action": "Toggle hardware video decoding"
+        },
+        {
+          "keys": "d",
+          "action": "Toggle interpolation/deinterlacing"
+        },
+        {
+          "keys": "o",
+          "action": "Toggle on-screen controller display"
+        },
+        {
+          "keys": "Shift + o",
+          "action": "Toggle progress bar display"
+        }
+      ]
+    },
+    {
+      "title": "Subtitles",
+      "shortcuts": [
+        {
+          "keys": "j",
+          "action": "Cycle subtitle tracks"
+        },
+        {
+          "keys": "Shift + j",
+          "action": "Cycle subtitle tracks backward"
+        },
+        {
+          "keys": "v",
+          "action": "Toggle subtitle visibility"
+        },
+        {
+          "keys": "z",
+          "action": "Subtitle delay earlier"
+        },
+        {
+          "keys": "Shift + z",
+          "action": "Subtitle delay later"
+        },
+        {
+          "keys": "r",
+          "action": "Move subtitles up"
+        },
+        {
+          "keys": "Shift + r",
+          "action": "Move subtitles down"
+        }
+      ]
+    },
+    {
+      "title": "Screenshots & Files",
+      "shortcuts": [
+        {
+          "keys": "s",
+          "action": "Take a screenshot"
+        },
+        {
+          "keys": "Shift + s",
+          "action": "Take a screenshot without subtitles/OSD"
+        },
+        {
+          "keys": "Ctrl + s",
+          "action": "Take an uncropped screenshot"
+        }
+      ]
+    },
+    {
+      "title": "Chapters & Navigation",
+      "shortcuts": [
+        {
+          "keys": "Page Up",
+          "action": "Seek to next chapter (alt binding)"
+        },
+        {
+          "keys": "Shift + Page Up",
+          "action": "Seek to next chapter"
+        },
+        {
+          "keys": "Shift + Page Down",
+          "action": "Seek to previous chapter"
+        }
+      ]
+    },
+    {
+      "title": "Info & Stats",
+      "shortcuts": [
+        {
+          "keys": "Tab",
+          "action": "Show filename on OSD"
+        },
+        {
+          "keys": "i",
+          "action": "Show stats about current file"
+        },
+        {
+          "keys": "Shift + i",
+          "action": "Show detailed stats (page 2)"
+        },
+        {
+          "keys": "`",
+          "action": "Show console / repl"
+        }
+      ]
+    }
+  ]
+}

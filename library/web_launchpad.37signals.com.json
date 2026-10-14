@@ -1,0 +1,81 @@
+{
+  "key": "web:launchpad.37signals.com",
+  "name": "Basecamp",
+  "sections": [
+    {
+      "title": "General",
+      "shortcuts": [
+        {
+          "keys": "?",
+          "action": "Show keyboard shortcuts"
+        },
+        {
+          "keys": "/",
+          "action": "Focus search"
+        },
+        {
+          "keys": "Esc",
+          "action": "Close dialog or panel"
+        }
+      ]
+    },
+    {
+      "title": "Navigating lists",
+      "shortcuts": [
+        {
+          "keys": "j",
+          "action": "Move to next item in a list"
+        },
+        {
+          "keys": "k",
+          "action": "Move to previous item in a list"
+        },
+        {
+          "keys": "Enter",
+          "action": "Open the selected item"
+        }
+      ]
+    },
+    {
+      "title": "Formatting text (messages & comments)",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italic"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Insert link"
+        },
+        {
+          "keys": "Ctrl + Shift + 7",
+          "action": "Numbered list"
+        },
+        {
+          "keys": "Ctrl + Shift + 8",
+          "action": "Bulleted list"
+        },
+        {
+          "keys": "Ctrl + ]",
+          "action": "Indent / blockquote"
+        },
+        {
+          "keys": "Ctrl + [",
+          "action": "Outdent"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo"
+        }
+      ]
+    }
+  ]
+}

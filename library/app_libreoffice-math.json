@@ -1,0 +1,172 @@
+{
+  "key": "app:libreoffice-math",
+  "name": "LibreOffice Math",
+  "sections": [
+    {
+      "title": "File",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New document"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open document"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save document"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print formula"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close document"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut selection"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selection"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all formula text"
+        },
+        {
+          "keys": "Delete",
+          "action": "Delete selection"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find and replace"
+        }
+      ]
+    },
+    {
+      "title": "Navigation (Commands window)",
+      "shortcuts": [
+        {
+          "keys": "Left",
+          "action": "Move cursor left"
+        },
+        {
+          "keys": "Right",
+          "action": "Move cursor right"
+        },
+        {
+          "keys": "Up",
+          "action": "Move cursor up"
+        },
+        {
+          "keys": "Down",
+          "action": "Move cursor down"
+        },
+        {
+          "keys": "Home",
+          "action": "Move to start of line"
+        },
+        {
+          "keys": "End",
+          "action": "Move to end of line"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Move to start of document"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Move to end of document"
+        },
+        {
+          "keys": "Shift + Left",
+          "action": "Extend selection left"
+        },
+        {
+          "keys": "Shift + Right",
+          "action": "Extend selection right"
+        },
+        {
+          "keys": "Tab",
+          "action": "Jump to next placeholder"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Jump to previous placeholder"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "shortcuts": [
+        {
+          "keys": "F4",
+          "action": "Toggle Elements pane"
+        },
+        {
+          "keys": "Ctrl + F3",
+          "action": "Toggle Elements pane"
+        },
+        {
+          "keys": "Shift + Ctrl + J",
+          "action": "Toggle full screen"
+        }
+      ]
+    },
+    {
+      "title": "Formula Update",
+      "shortcuts": [
+        {
+          "keys": "F9",
+          "action": "Update formula display"
+        },
+        {
+          "keys": "Shift + F9",
+          "action": "Update formula and zoom"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "shortcuts": [
+        {
+          "keys": "F1",
+          "action": "Open help"
+        },
+        {
+          "keys": "Shift + F1",
+          "action": "Show extended tooltip help"
+        }
+      ]
+    }
+  ]
+}

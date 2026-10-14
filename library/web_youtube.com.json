@@ -1,0 +1,122 @@
+{
+  "key": "web:youtube.com",
+  "name": "YouTube",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "k",
+          "action": "Play / pause"
+        },
+        {
+          "keys": "Space",
+          "action": "Play / pause"
+        },
+        {
+          "keys": "j",
+          "action": "Rewind 10 seconds"
+        },
+        {
+          "keys": "l",
+          "action": "Fast forward 10 seconds"
+        },
+        {
+          "keys": "Left",
+          "action": "Rewind 5 seconds"
+        },
+        {
+          "keys": "Right",
+          "action": "Fast forward 5 seconds"
+        },
+        {
+          "keys": "Home",
+          "action": "Jump to start of video"
+        },
+        {
+          "keys": "End",
+          "action": "Jump to end of video"
+        },
+        {
+          "keys": "0-9",
+          "action": "Jump to 0%-90% of video"
+        },
+        {
+          "keys": ",",
+          "action": "Step back one frame (while paused)"
+        },
+        {
+          "keys": ".",
+          "action": "Step forward one frame (while paused)"
+        },
+        {
+          "keys": "<",
+          "action": "Decrease playback speed"
+        },
+        {
+          "keys": ">",
+          "action": "Increase playback speed"
+        }
+      ]
+    },
+    {
+      "title": "Volume",
+      "shortcuts": [
+        {
+          "keys": "Up",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "Down",
+          "action": "Decrease volume"
+        },
+        {
+          "keys": "m",
+          "action": "Mute / unmute"
+        }
+      ]
+    },
+    {
+      "title": "View & Display",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Toggle full screen"
+        },
+        {
+          "keys": "Esc",
+          "action": "Exit full screen"
+        },
+        {
+          "keys": "t",
+          "action": "Toggle theater mode"
+        },
+        {
+          "keys": "i",
+          "action": "Toggle miniplayer"
+        },
+        {
+          "keys": "c",
+          "action": "Toggle captions"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Shift + n",
+          "action": "Go to next video in playlist/autoplay"
+        },
+        {
+          "keys": "Shift + p",
+          "action": "Go to previous video in playlist"
+        },
+        {
+          "keys": "/",
+          "action": "Focus search box"
+        }
+      ]
+    }
+  ]
+}

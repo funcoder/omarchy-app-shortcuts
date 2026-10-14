@@ -1,0 +1,171 @@
+{
+  "key": "app:spotify",
+  "name": "Spotify",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play/pause"
+        },
+        {
+          "keys": "Ctrl + Right",
+          "action": "Next track"
+        },
+        {
+          "keys": "Ctrl + Left",
+          "action": "Previous track"
+        },
+        {
+          "keys": "Ctrl + Shift + Right",
+          "action": "Seek forward"
+        },
+        {
+          "keys": "Ctrl + Shift + Left",
+          "action": "Seek backward"
+        },
+        {
+          "keys": "Ctrl + Up",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "Ctrl + Down",
+          "action": "Decrease volume"
+        },
+        {
+          "keys": "Ctrl + Shift + Up",
+          "action": "Mute/unmute volume"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Toggle shuffle"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Toggle repeat"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + L",
+          "action": "Focus search bar"
+        },
+        {
+          "keys": "Ctrl + Alt + Left",
+          "action": "Go back"
+        },
+        {
+          "keys": "Ctrl + Alt + Right",
+          "action": "Go forward"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to home"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Search within playlist/page"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Go to Home"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Go to search"
+        },
+        {
+          "keys": "Ctrl + 3",
+          "action": "Go to your library"
+        }
+      ]
+    },
+    {
+      "title": "Library & Playlists",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Create new playlist"
+        },
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Create new playlist folder"
+        },
+        {
+          "keys": "Ctrl + B",
+          "action": "Save/like current track"
+        },
+        {
+          "keys": "Ctrl + Shift + B",
+          "action": "Toggle liked songs view"
+        },
+        {
+          "keys": "Delete",
+          "action": "Remove selected track from playlist"
+        },
+        {
+          "keys": "Enter",
+          "action": "Play selected track"
+        }
+      ]
+    },
+    {
+      "title": "Window & App",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit Spotify"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Open install/uninstall apps view"
+        },
+        {
+          "keys": "Ctrl + ,",
+          "action": "Open preferences"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Ctrl + =",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom"
+        }
+      ]
+    },
+    {
+      "title": "Editing & Selection",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all tracks in view"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy track/link"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo last library action"
+        }
+      ]
+    }
+  ]
+}

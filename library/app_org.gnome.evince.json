@@ -1,0 +1,160 @@
+{
+  "key": "app:org.gnome.evince",
+  "name": "Document Viewer",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Next page / scroll down"
+        },
+        {
+          "keys": "Shift + Space",
+          "action": "Previous page / scroll up"
+        },
+        {
+          "keys": "n",
+          "action": "Next page"
+        },
+        {
+          "keys": "p",
+          "action": "Previous page"
+        },
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to first page"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to last page"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Go to page by number"
+        },
+        {
+          "keys": "Alt + Left",
+          "action": "Go back"
+        },
+        {
+          "keys": "Alt + Right",
+          "action": "Go forward"
+        }
+      ]
+    },
+    {
+      "title": "Zoom & Rotate",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + +",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom"
+        },
+        {
+          "keys": "Ctrl + Left",
+          "action": "Rotate page anticlockwise"
+        },
+        {
+          "keys": "Ctrl + Right",
+          "action": "Rotate page clockwise"
+        }
+      ]
+    },
+    {
+      "title": "Finding Text",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Find in document"
+        },
+        {
+          "keys": "Ctrl + G",
+          "action": "Find next match"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Find previous match"
+        },
+        {
+          "keys": "Escape",
+          "action": "Close find bar"
+        }
+      ]
+    },
+    {
+      "title": "Selecting & Copying",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all text"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected text"
+        }
+      ]
+    },
+    {
+      "title": "File Operations",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + O",
+          "action": "Open a document"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "Open a new window"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save a copy"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print document"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Reload document"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "shortcuts": [
+        {
+          "keys": "F5",
+          "action": "Start presentation mode"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "F9",
+          "action": "Toggle sidebar"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Add bookmark"
+        },
+        {
+          "keys": "Escape",
+          "action": "Exit fullscreen or presentation mode"
+        }
+      ]
+    }
+  ]
+}

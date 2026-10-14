@@ -1,0 +1,213 @@
+{
+  "key": "app:org.gnome.nautilus",
+  "name": "Files",
+  "sections": [
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + L",
+          "action": "Type a location/path to go to"
+        },
+        {
+          "keys": "Alt + Up",
+          "action": "Go to parent folder"
+        },
+        {
+          "keys": "Alt + Left",
+          "action": "Go back"
+        },
+        {
+          "keys": "Alt + Right",
+          "action": "Go forward"
+        },
+        {
+          "keys": "Alt + Home",
+          "action": "Go to home folder"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Toggle hidden files"
+        },
+        {
+          "keys": "F5",
+          "action": "Refresh view"
+        },
+        {
+          "keys": "Escape",
+          "action": "Stop loading/cancel"
+        }
+      ]
+    },
+    {
+      "title": "Tabs and Windows",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + T",
+          "action": "Open new tab"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "Open new window"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close tab/window"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Switch to next tab"
+        },
+        {
+          "keys": "Ctrl + Shift + Tab",
+          "action": "Switch to previous tab"
+        },
+        {
+          "keys": "Ctrl + PageDown",
+          "action": "Switch to next tab"
+        },
+        {
+          "keys": "Ctrl + PageUp",
+          "action": "Switch to previous tab"
+        },
+        {
+          "keys": "Ctrl + 1..9",
+          "action": "Switch to tab number"
+        }
+      ]
+    },
+    {
+      "title": "File Operations",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected files"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut selected files"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste files"
+        },
+        {
+          "keys": "Delete",
+          "action": "Move to trash"
+        },
+        {
+          "keys": "Ctrl + Shift + Delete",
+          "action": "Permanently delete"
+        },
+        {
+          "keys": "F2",
+          "action": "Rename selected item"
+        },
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Create new folder"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Bookmark selected location"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo last action"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo last action"
+        },
+        {
+          "keys": "Enter",
+          "action": "Open selected item"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Open item in new window"
+        }
+      ]
+    },
+    {
+      "title": "Selection",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all files"
+        },
+        {
+          "keys": "Ctrl + Shift + A",
+          "action": "Deselect all files"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Invert selection"
+        },
+        {
+          "keys": "Arrow keys",
+          "action": "Move selection cursor"
+        },
+        {
+          "keys": "Space",
+          "action": "Preview selected file"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + 1",
+          "action": "Use list view"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Use grid view"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Zoom in / increase icon size"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Zoom out / decrease icon size"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom to default size"
+        },
+        {
+          "keys": "Ctrl + Shift + H",
+          "action": "Show/hide sidebar"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Search current folder"
+        },
+        {
+          "keys": "Escape",
+          "action": "Close search"
+        }
+      ]
+    },
+    {
+      "title": "Properties and Info",
+      "shortcuts": [
+        {
+          "keys": "Alt + Enter",
+          "action": "Show properties of selected item"
+        },
+        {
+          "keys": "F9",
+          "action": "Toggle sidebar"
+        }
+      ]
+    }
+  ]
+}

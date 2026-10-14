@@ -1,0 +1,36 @@
+{
+  "key": "app:com.moonlight_stream.moonlight",
+  "name": "Moonlight",
+  "sections": [
+    {
+      "title": "Session Control",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Alt + Shift + Q",
+          "action": "Quit the current streaming session"
+        },
+        {
+          "keys": "Ctrl + Alt + Shift + Z",
+          "action": "Toggle mouse and keyboard capture"
+        },
+        {
+          "keys": "Ctrl + Alt + Shift + M",
+          "action": "Minimize the streaming window"
+        }
+      ]
+    },
+    {
+      "title": "Diagnostics & Capture",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Alt + Shift + X",
+          "action": "Toggle on-screen performance stats overlay"
+        },
+        {
+          "keys": "Ctrl + Alt + Shift + S",
+          "action": "Take a screenshot of the stream"
+        }
+      ]
+    }
+  ]
+}

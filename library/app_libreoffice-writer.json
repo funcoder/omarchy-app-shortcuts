@@ -1,0 +1,260 @@
+{
+  "key": "app:libreoffice-writer",
+  "name": "LibreOffice Writer",
+  "sections": [
+    {
+      "title": "File & Document",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New document"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open document"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save document"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print document"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close document"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + F4",
+          "action": "Close current window"
+        }
+      ]
+    },
+    {
+      "title": "Editing & Selection",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste special"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Find and replace"
+        },
+        {
+          "keys": "Ctrl + Shift + J",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Ctrl + Delete",
+          "action": "Delete to end of word"
+        },
+        {
+          "keys": "Ctrl + Backspace",
+          "action": "Delete to start of word"
+        },
+        {
+          "keys": "Insert",
+          "action": "Toggle insert/overwrite mode"
+        }
+      ]
+    },
+    {
+      "title": "Formatting",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italic"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Underline"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Clear direct formatting"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Center align"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Justify"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Align left"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Align right"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Apply Heading 1 style"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Apply Heading 2 style"
+        },
+        {
+          "keys": "Ctrl + 3",
+          "action": "Apply Heading 3 style"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Apply Default paragraph style"
+        },
+        {
+          "keys": "Ctrl + Shift + P",
+          "action": "Superscript"
+        },
+        {
+          "keys": "Ctrl + Shift + B",
+          "action": "Subscript"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Increase font size"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Decrease font size"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to start of document"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to end of document"
+        },
+        {
+          "keys": "Ctrl + Left",
+          "action": "Move one word left"
+        },
+        {
+          "keys": "Ctrl + Right",
+          "action": "Move one word right"
+        },
+        {
+          "keys": "Ctrl + Up",
+          "action": "Move to previous paragraph"
+        },
+        {
+          "keys": "Ctrl + Down",
+          "action": "Move to next paragraph"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Scroll up one page"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Scroll down one page"
+        },
+        {
+          "keys": "F5",
+          "action": "Toggle Navigator"
+        }
+      ]
+    },
+    {
+      "title": "Insert & Structure",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Insert page break"
+        },
+        {
+          "keys": "Ctrl + Shift + Enter",
+          "action": "Insert column break"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Insert hyperlink"
+        },
+        {
+          "keys": "Ctrl + F2",
+          "action": "Insert field (fixed date)"
+        },
+        {
+          "keys": "Ctrl + Shift + C",
+          "action": "Toggle record changes"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Insert tab stop in table"
+        }
+      ]
+    },
+    {
+      "title": "Document Tools",
+      "shortcuts": [
+        {
+          "keys": "F7",
+          "action": "Spelling and grammar check"
+        },
+        {
+          "keys": "Ctrl + F7",
+          "action": "Thesaurus"
+        },
+        {
+          "keys": "F9",
+          "action": "Update fields"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle Styles sidebar"
+        },
+        {
+          "keys": "F5",
+          "action": "Open Navigator"
+        }
+      ]
+    }
+  ]
+}

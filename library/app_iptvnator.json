@@ -1,0 +1,65 @@
+{
+  "key": "app:iptvnator",
+  "name": "IPTVnator",
+  "sections": [
+    {
+      "title": "Playback Controls",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play/pause the current stream"
+        },
+        {
+          "keys": "F",
+          "action": "Toggle fullscreen video"
+        },
+        {
+          "keys": "Esc",
+          "action": "Exit fullscreen video"
+        },
+        {
+          "keys": "M",
+          "action": "Mute/unmute audio"
+        },
+        {
+          "keys": "Up",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "Down",
+          "action": "Decrease volume"
+        }
+      ]
+    },
+    {
+      "title": "Search & Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + F",
+          "action": "Focus channel search field"
+        }
+      ]
+    },
+    {
+      "title": "Window & Application",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + R",
+          "action": "Reload the application"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle window fullscreen"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit IPTVnator"
+        },
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Toggle developer tools"
+        }
+      ]
+    }
+  ]
+}

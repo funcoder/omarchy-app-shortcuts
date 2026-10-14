@@ -1,0 +1,73 @@
+{
+  "key": "web:tv.apple.com",
+  "name": "Apple TV",
+  "sections": [
+    {
+      "title": "Playback",
+      "shortcuts": [
+        {
+          "keys": "Space",
+          "action": "Play or pause"
+        },
+        {
+          "keys": "k",
+          "action": "Play or pause"
+        },
+        {
+          "keys": "←",
+          "action": "Rewind / seek backward"
+        },
+        {
+          "keys": "→",
+          "action": "Fast forward / seek forward"
+        },
+        {
+          "keys": "j",
+          "action": "Seek backward"
+        },
+        {
+          "keys": "l",
+          "action": "Seek forward"
+        },
+        {
+          "keys": "Home",
+          "action": "Jump to start"
+        },
+        {
+          "keys": "End",
+          "action": "Jump to end"
+        }
+      ]
+    },
+    {
+      "title": "Volume",
+      "shortcuts": [
+        {
+          "keys": "↑",
+          "action": "Increase volume"
+        },
+        {
+          "keys": "↓",
+          "action": "Decrease volume"
+        },
+        {
+          "keys": "m",
+          "action": "Mute / unmute"
+        }
+      ]
+    },
+    {
+      "title": "Display",
+      "shortcuts": [
+        {
+          "keys": "f",
+          "action": "Toggle fullscreen"
+        },
+        {
+          "keys": "Esc",
+          "action": "Exit fullscreen"
+        }
+      ]
+    }
+  ]
+}

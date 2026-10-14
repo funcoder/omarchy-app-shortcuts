@@ -1,0 +1,48 @@
+{
+  "key": "app:org.gnome.diskutility",
+  "name": "Disks",
+  "sections": [
+    {
+      "title": "General",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        },
+        {
+          "keys": "F1",
+          "action": "Open help"
+        },
+        {
+          "keys": "F10",
+          "action": "Open primary menu"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Up",
+          "action": "Select previous drive"
+        },
+        {
+          "keys": "Down",
+          "action": "Select next drive"
+        },
+        {
+          "keys": "Tab",
+          "action": "Move focus to next pane/control"
+        },
+        {
+          "keys": "Shift + Tab",
+          "action": "Move focus to previous pane/control"
+        }
+      ]
+    }
+  ]
+}

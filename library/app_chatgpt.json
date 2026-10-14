@@ -1,0 +1,110 @@
+{
+  "key": "app:chatgpt",
+  "name": "ChatGPT",
+  "sections": [
+    {
+      "title": "Chat",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Start a new chat"
+        },
+        {
+          "keys": "Ctrl + Shift + O",
+          "action": "Open new chat in new window"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Search chats"
+        },
+        {
+          "keys": "Ctrl + Shift + K",
+          "action": "Open chat search in new window"
+        },
+        {
+          "keys": "Enter",
+          "action": "Send message"
+        },
+        {
+          "keys": "Shift + Enter",
+          "action": "Insert new line in message"
+        },
+        {
+          "keys": "Ctrl + Backspace",
+          "action": "Delete current chat"
+        },
+        {
+          "keys": "Ctrl + Shift + C",
+          "action": "Copy last response"
+        }
+      ]
+    },
+    {
+      "title": "Voice & Input",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + ;",
+          "action": "Start voice mode"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Attach file to message"
+        }
+      ]
+    },
+    {
+      "title": "Window & View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + I",
+          "action": "Toggle window always on top"
+        },
+        {
+          "keys": "Ctrl + ,",
+          "action": "Open settings"
+        },
+        {
+          "keys": "Ctrl + =",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit app"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Minimize window"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + [",
+          "action": "Go to previous chat"
+        },
+        {
+          "keys": "Ctrl + Shift + ]",
+          "action": "Go to next chat"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find in chat"
+        }
+      ]
+    }
+  ]
+}

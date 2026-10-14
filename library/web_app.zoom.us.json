@@ -1,0 +1,127 @@
+{
+  "key": "web:app.zoom.us",
+  "name": "Zoom",
+  "sections": [
+    {
+      "title": "Audio & Video",
+      "shortcuts": [
+        {
+          "keys": "Alt + A",
+          "action": "Mute or unmute your audio"
+        },
+        {
+          "keys": "Alt + V",
+          "action": "Start or stop your video"
+        },
+        {
+          "keys": "Alt + M",
+          "action": "Mute or unmute everyone (host only)"
+        },
+        {
+          "keys": "Space",
+          "action": "Push to talk while muted (hold)"
+        }
+      ]
+    },
+    {
+      "title": "Meeting Controls",
+      "shortcuts": [
+        {
+          "keys": "Alt + Q",
+          "action": "End or leave meeting"
+        },
+        {
+          "keys": "Alt + S",
+          "action": "Start or stop screen share"
+        },
+        {
+          "keys": "Alt + T",
+          "action": "Pause or resume screen share"
+        },
+        {
+          "keys": "Alt + R",
+          "action": "Start local recording"
+        },
+        {
+          "keys": "Alt + C",
+          "action": "Start or stop cloud recording"
+        },
+        {
+          "keys": "Alt + P",
+          "action": "Pause or resume recording"
+        },
+        {
+          "keys": "Alt + F2",
+          "action": "Show meeting invite link/info"
+        },
+        {
+          "keys": "Alt + F1",
+          "action": "Switch camera"
+        }
+      ]
+    },
+    {
+      "title": "View & Layout",
+      "shortcuts": [
+        {
+          "keys": "Alt + F",
+          "action": "Enter or exit full screen"
+        },
+        {
+          "keys": "Alt + F4",
+          "action": "Close current window"
+        },
+        {
+          "keys": "Alt + W",
+          "action": "Switch to active speaker view"
+        },
+        {
+          "keys": "Alt + Shift + W",
+          "action": "Switch to gallery view"
+        },
+        {
+          "keys": "Alt + Shift + S",
+          "action": "View options for screen share"
+        },
+        {
+          "keys": "Alt + L",
+          "action": "Switch to minimized view"
+        }
+      ]
+    },
+    {
+      "title": "Participants & Reactions",
+      "shortcuts": [
+        {
+          "keys": "Alt + U",
+          "action": "Show or hide participants panel"
+        },
+        {
+          "keys": "Alt + Y",
+          "action": "Raise or lower hand"
+        },
+        {
+          "keys": "Alt + I",
+          "action": "Open invite panel"
+        },
+        {
+          "keys": "Alt + H",
+          "action": "Show or hide in-meeting chat panel"
+        }
+      ]
+    },
+    {
+      "title": "Chat",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Send chat message"
+        },
+        {
+          "keys": "Up",
+          "action": "Edit last sent chat message"
+        }
+      ]
+    }
+  ]
+}

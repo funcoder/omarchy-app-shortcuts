@@ -1,0 +1,286 @@
+{
+  "key": "app:libreoffice-calc",
+  "name": "LibreOffice Calc",
+  "sections": [
+    {
+      "title": "File & App",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "New document"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open document"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save document"
+        },
+        {
+          "keys": "Ctrl + Shift + S",
+          "action": "Save as"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Print document"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close document"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Find"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Find and replace"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Home",
+          "action": "Go to cell A1"
+        },
+        {
+          "keys": "Ctrl + End",
+          "action": "Go to last used cell"
+        },
+        {
+          "keys": "Ctrl + Arrow key",
+          "action": "Jump to edge of data region"
+        },
+        {
+          "keys": "Page Up",
+          "action": "Move one screen up"
+        },
+        {
+          "keys": "Page Down",
+          "action": "Move one screen down"
+        },
+        {
+          "keys": "Alt + Page Up",
+          "action": "Move one screen left"
+        },
+        {
+          "keys": "Alt + Page Down",
+          "action": "Move one screen right"
+        },
+        {
+          "keys": "Ctrl + Page Up",
+          "action": "Switch to previous sheet"
+        },
+        {
+          "keys": "Ctrl + Page Down",
+          "action": "Switch to next sheet"
+        },
+        {
+          "keys": "F5",
+          "action": "Open Navigator"
+        }
+      ]
+    },
+    {
+      "title": "Selecting",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all"
+        },
+        {
+          "keys": "Shift + Arrow key",
+          "action": "Extend selection"
+        },
+        {
+          "keys": "Ctrl + Shift + Arrow key",
+          "action": "Extend selection to edge of data"
+        },
+        {
+          "keys": "Ctrl + Shift + End",
+          "action": "Select to last used cell"
+        },
+        {
+          "keys": "Ctrl + Space",
+          "action": "Select entire column"
+        },
+        {
+          "keys": "Shift + Space",
+          "action": "Select entire row"
+        },
+        {
+          "keys": "Ctrl + Shift + Space",
+          "action": "Select all cells with data"
+        }
+      ]
+    },
+    {
+      "title": "Editing Cells",
+      "shortcuts": [
+        {
+          "keys": "F2",
+          "action": "Edit active cell"
+        },
+        {
+          "keys": "Delete",
+          "action": "Clear cell contents"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste special"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Fill down"
+        },
+        {
+          "keys": "Ctrl + Plus",
+          "action": "Insert cells/rows/columns"
+        },
+        {
+          "keys": "Ctrl + Minus",
+          "action": "Delete cells/rows/columns"
+        },
+        {
+          "keys": "Ctrl + Shift + semicolon",
+          "action": "Insert current time"
+        },
+        {
+          "keys": "Ctrl + semicolon",
+          "action": "Insert current date"
+        }
+      ]
+    },
+    {
+      "title": "Formatting",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Bold"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Italic"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Underline"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Format cells dialog"
+        },
+        {
+          "keys": "Ctrl + Shift + 1",
+          "action": "Format as number (two decimals)"
+        },
+        {
+          "keys": "Ctrl + Shift + 4",
+          "action": "Format as currency"
+        },
+        {
+          "keys": "Ctrl + Shift + 5",
+          "action": "Format as percent"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Clear direct formatting"
+        }
+      ]
+    },
+    {
+      "title": "Formulas & Calculation",
+      "shortcuts": [
+        {
+          "keys": "F9",
+          "action": "Recalculate all sheets"
+        },
+        {
+          "keys": "Ctrl + Shift + F9",
+          "action": "Force recalculate all"
+        },
+        {
+          "keys": "Ctrl + grave",
+          "action": "Show formulas instead of values"
+        },
+        {
+          "keys": "F4",
+          "action": "Toggle relative/absolute cell reference"
+        },
+        {
+          "keys": "Ctrl + Shift + Enter",
+          "action": "Enter array formula"
+        },
+        {
+          "keys": "Shift + F3",
+          "action": "Open function wizard"
+        },
+        {
+          "keys": "Alt + Enter",
+          "action": "Fill selection with same entry"
+        }
+      ]
+    },
+    {
+      "title": "Rows, Columns & Sheets",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + J",
+          "action": "Toggle full screen view"
+        },
+        {
+          "keys": "Ctrl + Shift + L",
+          "action": "AutoFilter toggle"
+        },
+        {
+          "keys": "Ctrl + Shift + O",
+          "action": "Hide/show outline symbols"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + K",
+          "action": "Insert hyperlink"
+        },
+        {
+          "keys": "Ctrl + Shift + P",
+          "action": "Open print preview"
+        },
+        {
+          "keys": "Alt + F1",
+          "action": "Switch sheet/document focus"
+        },
+        {
+          "keys": "Escape",
+          "action": "Cancel entry or close dialog"
+        }
+      ]
+    }
+  ]
+}

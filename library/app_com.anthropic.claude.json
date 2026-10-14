@@ -1,0 +1,102 @@
+{
+  "key": "app:com.anthropic.claude",
+  "name": "Claude",
+  "sections": [
+    {
+      "title": "Chat",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Start a new chat"
+        },
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Open chat history"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Open quick switcher / search chats"
+        },
+        {
+          "keys": "Enter",
+          "action": "Send message"
+        },
+        {
+          "keys": "Shift + Enter",
+          "action": "Insert new line in message"
+        },
+        {
+          "keys": "Ctrl + /",
+          "action": "Focus the message input"
+        }
+      ]
+    },
+    {
+      "title": "Window",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Open new window"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close window"
+        },
+        {
+          "keys": "Ctrl + Q",
+          "action": "Quit application"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Minimize window"
+        },
+        {
+          "keys": "Ctrl + ,",
+          "action": "Open settings"
+        }
+      ]
+    },
+    {
+      "title": "Editing",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all text in input"
+        },
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected text"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl + Shift + Z",
+          "action": "Redo"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + +",
+          "action": "Zoom in"
+        },
+        {
+          "keys": "Ctrl + -",
+          "action": "Zoom out"
+        },
+        {
+          "keys": "Ctrl + 0",
+          "action": "Reset zoom"
+        }
+      ]
+    }
+  ]
+}

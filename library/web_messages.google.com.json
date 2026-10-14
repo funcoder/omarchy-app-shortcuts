@@ -1,0 +1,78 @@
+{
+  "key": "web:messages.google.com",
+  "name": "Google Messages",
+  "sections": [
+    {
+      "title": "Messaging",
+      "shortcuts": [
+        {
+          "keys": "Enter",
+          "action": "Send message"
+        },
+        {
+          "keys": "Shift + Enter",
+          "action": "Insert new line"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + ↓",
+          "action": "Go to next conversation"
+        },
+        {
+          "keys": "Ctrl + Shift + ↑",
+          "action": "Go to previous conversation"
+        },
+        {
+          "keys": "Esc",
+          "action": "Close current conversation or dialog"
+        }
+      ]
+    },
+    {
+      "title": "Conversation actions",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + Shift + A",
+          "action": "Archive conversation"
+        },
+        {
+          "keys": "Ctrl + Shift + D",
+          "action": "Delete conversation"
+        },
+        {
+          "keys": "Ctrl + Shift + M",
+          "action": "Mute conversation"
+        },
+        {
+          "keys": "Ctrl + Shift + P",
+          "action": "Pin or unpin conversation"
+        },
+        {
+          "keys": "Ctrl + Shift + U",
+          "action": "Mark conversation as unread"
+        }
+      ]
+    },
+    {
+      "title": "General",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + N",
+          "action": "Start new conversation"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Search conversations and messages"
+        },
+        {
+          "keys": "?",
+          "action": "Show keyboard shortcuts"
+        }
+      ]
+    }
+  ]
+}
